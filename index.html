@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+  <style>
+    @import url('https://db.onlinewebfonts.com/c/7d9f81ecc8421d088d56c14f27478827?family=Gaura+Times+Regular');
+  </style>
+
+  <button onclick="transliterate()" style="margin: 5px; padding: 10px; font-size: 16px;">Транслітерація</button>
+  <button onclick="clearAll()" style="margin: 5px; padding: 10px; font-size: 16px;">Очистити все</button>
+
+  <br>
+
+  <textarea
+    id="inputText"
+    placeholder="Введіть текст англійською транслітерацією"
+    style="width: 80%; margin: 10px; padding: 10px; font-size: 18px;"
+  ></textarea>
+  <div
+    id="outputDiv"
+    style="
+      width: 80%;
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      font-size: 18px;
+      font-family: 'Gaura Times Regular', 'Noto Sans vedabaseio', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    "
+  ></div>
+
+  <script>
+    const transliterationRules = {
+      "подвоєні символи": [
+        {"kh": "кх"},
+        {"ch": "чх"},
+        {"th": "тх"},
+        {"ṭh": "х"},
+        {"ph": "пх"},
+        {"gh": "ґг"},
+        {"jh": "джг"},
+        {"dh": "дг"},
+        {"ḍh": "г"},
+        {"bh": "бг"},
+        {"kṣ": "кш"},
+        {"au": "ау"},
+        {"ai": "аі"},
+        {"rñ":"рш"},  
+        {"kñ":"кш"},
+        {"iñ":"іш"},  
+        {"Kh": "Кх"},
+        {"Ch": "Чх"},
+        {"Th": "Тх"},
+        {"Ṭh": "х"},
+        {"Ph": "Пх"},
+        {"Gh": "Ґг"},
+        {"Jh": "Джг"},
+        {"Dh": "Дг"},
+        {"ḍh": "г"},
+        {"Bh": "Бг"},
+        {"Kṣ": "Кш"},
+        {"Au": "Ау"},
+        {"Ai": "Аі"}
+      ],
+      "голосні": [
+        {"a": "а"},
+        {"o": "о"},
+        {"e": "е"},
+        {"u": "у"},
+        {"i": "і"},
+        {"ā": ""},
+        {"ī": "ī"},
+        {"ū": "ӯ"},
+        {"ä":""},
+        {"ü":"ӯ"},	
+        {"é":"ī"},          
+        {"A": "А"},
+        {"O": "О"},
+        {"E": "Е"},
+        {"U": "У"},
+        {"I": "І"},
+        {"Ā": ""},
+        {"Ī": "Ī"},
+        {"Ū": "Ӯ"}
+      ],
+      "приголосні": [
+        {"r": "р"},
+        {"l": "л"},
+        {"k": "к"},
+        {"c": "ч"},
+        {"t": "т"},
+        {"p": "п"},
+        {"s": "с"},
+        {"g": "ґ"},
+        {"h": "х"},
+        {"m": "м"},
+        {"j": "дж"},
+        {"d": "д"},
+        {"b": "б"},
+        {"v": "в"},
+        {"n": "н"},
+        {"y": "й"},
+        {"ś": ""},
+        {"ṣ": "ш"},
+        {"ṭ": ""},
+        {"ḍ": ""},
+        {"ñ": ""},
+        {"ḹ": ""},
+        {"ḷ": ""},
+        {"ṁ": ""},
+        {"ṅ": ""},
+        {"ṝ": ""},
+        {"ṛ": ""},
+        {"ḥ": ""},
+        {"ṇ": ""},
+        {"å":""},
+        {"ù":""},
+        {"à":""},
+        {"ì":""},
+        {"ç":""},
+        {"ö":""},
+        {"ë":""},
+        {"ò":""},
+        {"ï":""},          
+        {"R": "Р"},
+        {"L": "Л"},
+        {"K": "К"},
+        {"C": "Ч"},
+        {"T": "Т"},
+        {"P": "П"},
+        {"S": "С"},
+        {"G": "Ґ"},
+        {"H": "Х"},
+        {"M": "М"},
+        {"J": "Дж"},
+        {"D": "Д"},
+        {"B": "Б"},
+        {"V": "В"},
+        {"N": "Н"},
+        {"Y": "Й"},
+        {"Ś": ""},
+        {"Ṣ": "Ш"},
+        {"Ṭ": ""},
+        {"Ḍ": ""},
+        {"Ñ": ""},
+        {"Ḹ": ""},
+        {"Ḷ": ""},
+        {"Ṁ": ""},
+        {"Ṅ": ""},
+        {"Ṝ": ""},
+        {"Ṛ": ""},
+        {"Ḥ": ""},
+        {"Ṇ": ""}
+      ]
+    };
+
+    function transliterate() {
+      const inputText = document.getElementById('inputText').value;
+      let outputText = inputText;
+
+      transliterationRules["подвоєні символи"].forEach((rule) => {
+        const from = Object.keys(rule)[0];
+        const to = rule[from];
+        const regex = new RegExp(from, 'g');
+        outputText = outputText.replace(regex, to);
+      });
+
+      transliterationRules["голосні"].forEach((rule) => {
+        const from = Object.keys(rule)[0];
+        const to = rule[from];
+        const regex = new RegExp(from, 'g');
+        outputText = outputText.replace(regex, to);
+      });
+
+      transliterationRules["приголосні"].forEach((rule) => {
+        const from = Object.keys(rule)[0];
+        const to = rule[from];
+        const regex = new RegExp(from, 'g');
+        outputText = outputText.replace(regex, to);
+      });
+
+      const currentTime = new Date().toLocaleTimeString();
+      const blockId = `transliterationBlock_${Date.now()}`;
+      const transliterationBlock = `
+        <div class="transliteration-block" id="${blockId}" style="margin-bottom: 10px; border: 1px solid #ddd; padding: 10px; position: relative;">
+          <button class="copy-btn" onclick="copyToClipboard('${outputText}')" style="margin-right: 5px;">Копіювати</button>
+          <button class="delete-btn" onclick="deleteBlock('${blockId}')" style="position: absolute; top: 5px; right: 5px; cursor: pointer; color: red;">Видалити</button>
+          <p>${currentTime}</p>
+          <p>${outputText.replace(/\n/g, '<br>')}</p>
+        </div>
+      `;
+
+      document.getElementById('outputDiv').insertAdjacentHTML('afterbegin', transliterationBlock);
+    }
+
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Text copied to clipboard');
+      }).catch((err) => {
+        console.error('Unable to copy text to clipboard', err);
+      });
+    }
+
+    function deleteBlock(blockId) {
+      const block = document.getElementById(blockId);
+      if (block) {
+        block.remove();
+      }
+    }
+
+    function clearAll() {
+      document.getElementById('inputText').value = '';
+      document.getElementById('outputDiv').innerHTML = '';
+    }
+
+    function adjustTextareaHeight() {
+      const textarea = document.getElementById('inputText');
+      textarea.style.height = 'auto';
+      textarea.style.height = textarea.scrollHeight + 'px';
+    }
+
+    document.getElementById('inputText').addEventListener('input', adjustTextareaHeight);
+  </script>
+</body>
+
+</html>
