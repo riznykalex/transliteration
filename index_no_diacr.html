@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <style>
+    @import url('https://db.onlinewebfonts.com/c/7d9f81ecc8421d088d56c14f27478827?family=Gaura+Times+Regular');
+
+    .selected {
+      background-color: yellow;
+    }
+  </style>
+
+  <button onclick="transliterate()" style="margin: 5px; padding: 10px; font-size: 16px;">Транслітерація</button>
+  <button onclick="clearAll()" style="margin: 5px; padding: 10px; font-size: 16px;">Очистити все</button>
+
+  <br>
+
+  <textarea
+    id="inputText"
+    placeholder="Введіть текст англійською транслітерацією"
+    style="width: 80%; margin: 10px; padding: 10px; font-size: 18px;"
+  ></textarea>
+  <div
+    id="outputDiv"
+    style="
+      width: 80%;
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      font-size: 18px;
+      font-family: 'Gaura Times Regular', 'Noto Sans vedabaseio', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    "
+  ></div>
+  
+  
+  <script>
+    const transliterationRules = {
+      "подвоєні символи": [
+        {"kh": "кх"},
+        {"ch": "чх"},
+        {"th": "тх"},
+        {"ṭh": "х"},
+        {"ph": "пх"},
+        {"gh": "ґг"},
+        {"jh": "джг"},
+        {"dh": "дг"},
+        {"ḍh": "г"},
+        {"bh": "бг"},
+        {"kṣ": "кш"},
+        {"au": "ау"},
+        {"ai": "аі"},
+        {"rñ":"рш"},  
+        {"kñ":"кш"},
+        {"iñ":"іш"},  
+        {"Kh": "Кх"},
+        {"Ch": "Чх"},
+        {"Th": "Тх"},
+        {"Ṭh": "х"},
+        {"Ph": "Пх"},
+        {"Gh": "Ґг"},
+        {"Jh": "Джг"},
+        {"Dh": "Дг"},
+        {"Ḍh": "г"},
+        {"Bh": "Бг"},
+        {"Kṣ": "Кш"},
+        {"Au": "Ау"},
+        {"Ai": "Аі"}
+      ],
+      "голосні": [
+        {"a": "а"},
+        {"o": "о"},
+        {"e": "е"},
+        {"u": "у"},
+        {"i": "і"},
+        {"ā": ""},
+        {"ī": "ī"},
+        {"ū": "ӯ"},
+        {"ä":""},
+        {"ü":"ӯ"},	
+        {"é":"ī"},          
+        {"A": "А"},
+        {"O": "О"},
+        {"E": "Е"},
+        {"U": "У"},
+        {"I": "І"},
+        {"Ā": ""},
+        {"Ī": "Ī"},
+        {"Ū": "Ӯ"}
+      ],
+      "приголосні": [
+        {"r": "р"},
+        {"l": "л"},
+        {"k": "к"},
+        {"c": "ч"},
+        {"t": "т"},
+        {"p": "п"},
+        {"s": "с"},
+        {"g": "ґ"},
+        {"h": "х"},
+        {"m": "м"},
+        {"j": "дж"},
+        {"d": "д"},
+        {"b": "б"},
+        {"v": "в"},
+        {"n": "н"},
+        {"y": "й"},
+        {"ś": ""},
+        {"ṣ": "ш"},
+        {"ṭ": ""},
+        {"ḍ": ""},
+        {"ñ": ""},
+        {"ḹ": ""},
+        {"ḷ": ""},
+        {"ṁ": ""},
+        {"ṅ": ""},
+        {"ṝ": ""},
+        {"ṛ": ""},
+        {"ḥ": ""},
+        {"ṇ": ""},
+        {"å":""},
+        {"ù":""},
+        {"à":""},
+        {"ì":""},
+        {"ç":""},
+        {"ö":""},
+        {"ë":""},
+        {"ò":""},
+        {"ï":""},          
+        {"R": "Р"},
+        {"L": "Л"},
+        {"K": "К"},
+        {"C": "Ч"},
+        {"T": "Т"},
+        {"P": "П"},
+        {"S": "С"},
+        {"G": "Ґ"},
+        {"H": "Х"},
+        {"M": "М"},
+        {"J": "Дж"},
+        {"D": "Д"},
+        {"B": "Б"},
+        {"V": "В"},
+        {"N": "Н"},
+        {"Y": "Й"},
+        {"Ś": ""},
+        {"Ṣ": "Ш"},
+        {"Ṭ": ""},
+        {"Ḍ": ""},
+        {"Ñ": ""},
+        {"Ḹ": ""},
+        {"Ḷ": ""},
+        {"Ṁ": ""},
+        {"Ṅ": ""},
+        {"Ṝ": ""},
+        {"Ṛ": ""},
+        {"Ḥ": ""},
+        {"Ṇ": ""}
+      ]
+    };
+
+          const noDiacryticTransliterationRules = {
+      "replace symbols": [
+        {"": "т"},
+        {"": "д"},
+        {"": "Т"},
+        {"": "Д"},
+        {"": "а"},
+        {"ī": "і"},
+        {"ӯ": "у"},
+        {"": "А"},
+        {"Ī": "І"},
+        {"Ӯ": "У"},
+        {"": "ш"},
+        {"": "н"},
+        {"": "л"},
+        {"": "м"},
+        {"": "н"},
+        {"": "рі"},
+        {"": "рі"},
+        {"": "х"},
+        {"": "н"},
+        {"": "Ш"},
+        {"": "Н"},
+        {"": "Л"},
+        {"": "М"},
+        {"": "Н"},
+        {"": "Р"},
+        {"": "Р"},
+        {"": "Х"},
+        {"": "Н"}
+      ],
+      "replace pairs": [
+        {"йа": "я"},
+        {"йу": "ю"},
+        {"йі": "ї"},
+        {"йе": "є"},
+        {"Йа": "Я"},
+        {"Йу": "Ю"},
+        {"Йі": "Ї"},
+        {"Йе": "Є"},
+        {"джна": "ґ’я"},
+        {"Джна": "Ґ’я"},
+      ],
+      "апостроф": [
+        {"жя": "ж’я"},
+        {"жю": "ж’ю"},
+        {"жє": "ж’є"},
+        {"жї": "ж’ї"},
+        {"чя": "ч’я"},
+        {"чю": "ч’ю"},
+        {"чє": "ч’є"},
+        {"чї": "ч’ї"},
+        {"шя": "ш’я"},
+        {"шю": "ш’ю"},
+        {"шє": "ш’є"},
+        {"шї": "ш’ї"},
+        {"джя": "дж’я"},
+        {"джю": "дж’ю"},
+        {"джє": "дж’є"},
+        {"джї": "дж’ї"},
+        {"щя": "щ’я"},
+        {"щю": "щ’ю"},
+        {"щє": "щ’є"},
+        {"щї": "щ’ї"},
+        {"бя": "б’я"},
+        {"бю": "б’ю"},
+        {"бє": "б’є"},
+        {"бї": "б’ї"},
+        {"пя": "п’я"},
+        {"пю": "п’ю"},
+        {"пє": "п’є"},
+        {"пї": "п’ї"},
+        {"вя": "в’я"},
+        {"вю": "в’ю"},
+        {"вє": "в’є"},
+        {"вї": "в’ї"},
+        {"мя": "м’я"},
+        {"мю": "м’ю"},
+        {"мє": "м’є"},
+        {"мї": "м’ї"},
+        {"фя": "ф’я"},
+        {"фю": "ф’ю"},
+        {"фє": "ф’є"},
+        {"фї": "ф’ї"},
+        {"ґя": "ґ’я"},
+        {"ґю": "ґ’ю"},
+        {"ґє": "ґ’є"},
+        {"ґї": "ґ’ї"},
+        {"кя": "к’я"},
+        {"кю": "к’ю"},
+        {"кє": "к’є"},
+        {"кї": "к’ї"},
+        {"хя": "х’я"},
+        {"хю": "х’ю"},
+        {"хє": "х’є"},
+        {"хї": "х’ї"},
+        {"ря": "р’я"},
+        {"рю": "р’ю"},
+        {"рє": "р’є"},
+        {"рї": "р’ї"},
+      ],
+      "м’який знак": [
+        {"дя": "дья"},
+        {"дю": "дью"},
+        {"дє": "дьє"},
+        {"дї": "дьї"},
+        {"ля": "лья"},
+        {"лю": "лью"},
+        {"лє": "льє"},
+        {"лї": "льї"},
+        {"ня": "нья"},
+        {"ню": "нью"},
+        {"нє": "ньє"},
+        {"нї": "ньї"},
+        {"ся": "сья"},
+        {"сю": "сью"},
+        {"сє": "сьє"},
+        {"сї": "сьї"},
+        {"тя": "тья"},
+        {"тю": "тью"},
+        {"тє": "тьє"},
+        {"тї": "тьї"},
+      ]
+    };
+
+      function transliterate() {
+      const inputText = document.getElementById('inputText').value;
+      const inputLines = inputText.split('\n');
+      let outputLines = [];
+
+      for (const line of inputLines) {
+        const words = line.split(' ');
+        let outputLine = '';
+
+        for (const word of words) {
+          let transWord = word;
+
+          for (const ruleSet of Object.values(transliterationRules)) {
+            ruleSet.forEach((rule) => {
+              const from = Object.keys(rule)[0];
+              const to = rule[from];
+              const regex = new RegExp(from, 'g');
+              transWord = transWord.replace(regex, to);
+            });
+          }
+
+          if (transWord !== word) {
+            transWord = `<span class="translit">${transWord}</span>`;
+          }
+
+          outputLine += transWord + ' ';
+        }
+
+        outputLines.push(outputLine.trim());
+      }
+
+      const resultText = outputLines.join('<br>');
+
+      const currentTime = new Date().toLocaleTimeString();
+      const blockId = `transliterationBlock_${Date.now()}`;
+      const transliterationBlock = `
+        <div class="transliteration-block" id="${blockId}" style="margin-bottom: 10px; border: 1px solid #ddd; padding: 10px; position: relative;">
+          <button class="delete-btn" onclick="deleteBlock('${blockId}')" style="position: absolute; top: 5px; right: 5px; cursor: pointer; color: red;">delete</button>
+          <button onclick="removeDiacriticsInBlock('${blockId}')" style="position: absolute; top: 5px; right: 55px; cursor: pointer; color: blue;">Без діакритиків</button>
+          <p>${currentTime}</p>
+          <p>${resultText.replace(/\n/g, '<br>')}</p>
+        </div>
+      `;
+
+      document.getElementById('outputDiv').insertAdjacentHTML('afterbegin', transliterationBlock);
+
+      // Вивід результату у консоль
+      console.log(resultText);
+    }
+
+    function deleteBlock(blockId) {
+      const block = document.getElementById(blockId);
+      if (block) {
+        block.remove();
+      }
+    }
+
+    function removeDiacriticsInBlock(blockId) {
+      const block = document.getElementById(blockId);
+      const spans = block.querySelectorAll('.translit');
+
+      spans.forEach((span) => {
+        let text = span.innerText;
+
+        for (const ruleSet of Object.values(noDiacryticTransliterationRules)) {
+          ruleSet.forEach((rule) => {
+            const from = Object.keys(rule)[0];
+            const to = rule[from];
+            const regex = new RegExp(from, 'g');
+            text = text.replace(regex, to);
+          });
+        }
+
+        span.innerText = text;
+      });
+    }
+
+    function clearAll() {
+      document.getElementById('inputText').value = '';
+      document.getElementById('outputDiv').innerHTML = '';
+    }
+
+    function adjustTextareaHeight() {
+      const textarea = document.getElementById('inputText');
+      textarea.style.height = 'auto';
+      textarea.style.height = textarea.scrollHeight + 'px';
+    }
+
+    document.getElementById('inputText').addEventListener('input', adjustTextareaHeight);
+  </script>
+</body>
+
+</html>
