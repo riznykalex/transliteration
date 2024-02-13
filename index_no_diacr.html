@@ -2,7 +2,7 @@
 <html lang="en">
 
 <body>
-  <style>
+ <style>
     @import url('https://db.onlinewebfonts.com/c/7d9f81ecc8421d088d56c14f27478827?family=Gaura+Times+Regular');
 
     .selected {
@@ -190,6 +190,8 @@
         {"": "Н"}
       ],
       "replace pairs": [
+        {"аі": "ай"}, 
+        {"Аі": "Ай"}, 
         {"йа": "я"},
         {"йу": "ю"},
         {"йі": "ї"},
@@ -246,6 +248,10 @@
         {"ґю": "ґ’ю"},
         {"ґє": "ґ’є"},
         {"ґї": "ґ’ї"},
+        {"гя": "г’я"},
+        {"ґю": "г’ю"},
+        {"гє": "г’є"},
+        {"гї": "г’ї"},
         {"кя": "к’я"},
         {"кю": "к’ю"},
         {"кє": "к’є"},
@@ -258,6 +264,67 @@
         {"рю": "р’ю"},
         {"рє": "р’є"},
         {"рї": "р’ї"},
+        {"Жя": "Ж’я"},
+        {"Жю": "Ж’ю"},
+        {"Жє": "Ж’є"},
+        {"Жї": "Ж’ї"},
+        {"Чя": "Ч’я"},
+        {"Чю": "Ч’ю"},
+        {"Чє": "Ч’є"},
+        {"Чї": "Ч’ї"},
+        {"Шя": "Ш’я"},
+        {"Шю": "Ш’ю"},
+        {"Шє": "Ш’є"},
+        {"Шї": "Ш’ї"},
+        {"Джя": "Дж’я"},
+        {"Джю": "Дж’ю"},
+        {"Джє": "Дж’є"},
+        {"Джї": "Дж’ї"},
+        {"Щя": "Щ’я"},
+        {"Щю": "Щ’ю"},
+        {"Щє": "Щ’є"},
+        {"Щї": "Щ’ї"},
+        {"Бя": "Б’я"},
+        {"Бю": "Б’ю"},
+        {"Бє": "Б’є"},
+        {"Бї": "Б’ї"},
+        {"Пя": "П’я"},
+        {"Пю": "П’ю"},
+        {"Пє": "П’є"},
+        {"Пї": "П’ї"},
+        {"Вя": "В’я"},
+        {"Вю": "В’ю"},
+        {"Вє": "В’є"},
+        {"Вї": "В’ї"},
+        {"Мя": "М’я"},
+        {"Мю": "М’ю"},
+        {"Мє": "М’є"},
+        {"Мї": "М’ї"},
+        {"Фя": "Ф’я"},
+        {"Фю": "Ф’ю"},
+        {"Фє": "Ф’є"},
+        {"Фї": "Ф’ї"},
+        {"Ґя": "Ґ’я"},
+        {"Ґю": "Ґ’ю"},
+        {"Ґє": "Ґ’є"},
+        {"Ґї": "Ґ’ї"},
+        {"Гя": "Г’я"},
+        {"Ґю": "Г’ю"},
+        {"Гє": "Г’є"},
+        {"Гї": "Г’ї"},
+        {"Кя": "К’я"},
+        {"Кю": "К’ю"},
+        {"Кє": "К’є"},
+        {"Кї": "К’ї"},
+        {"Хя": "Х’я"},
+        {"Хю": "Х’ю"},
+        {"Хє": "Х’є"},
+        {"Хї": "Х’ї"},
+        {"Ря": "Р’я"},
+        {"Рю": "Р’ю"},
+        {"Рє": "Р’є"},
+        {"Рї": "Р’ї"}
+          
       ],
       "м’який знак": [
         {"дя": "дья"},
@@ -280,6 +347,27 @@
         {"тю": "тью"},
         {"тє": "тьє"},
         {"тї": "тьї"},
+        {"Дя": "Дья"},
+        {"Дю": "Дью"},
+        {"Дє": "Дьє"},
+        {"Дї": "Дьї"},
+        {"Ля": "Лья"},
+        {"Лю": "Лью"},
+        {"Лє": "Льє"},
+        {"Лї": "Льї"},
+        {"Ня": "Нья"},
+        {"Ню": "Нью"},
+        {"Нє": "Ньє"},
+        {"Нї": "Ньї"},
+        {"Ся": "Сья"},
+        {"Сю": "Сью"},
+        {"Сє": "Сьє"},
+        {"Сї": "Сьї"},
+        {"Тя": "Тья"},
+        {"Тю": "Тью"},
+        {"Тє": "Тьє"},
+        {"Тї": "Тьї"}
+
       ]
     };
 
@@ -289,29 +377,29 @@
       let outputLines = [];
 
       for (const line of inputLines) {
-        const words = line.split(' ');
-        let outputLine = '';
+      const words = line.split(' ');
+      let outputLine = '';
 
-        for (const word of words) {
-          let transWord = word;
+      for (const word of words) {
+      let transWord = word;
 
-          for (const ruleSet of Object.values(transliterationRules)) {
-            ruleSet.forEach((rule) => {
-              const from = Object.keys(rule)[0];
-              const to = rule[from];
-              const regex = new RegExp(from, 'g');
-              transWord = transWord.replace(regex, to);
-            });
-          }
+      for (const ruleSet of Object.values(transliterationRules)) {
+      ruleSet.forEach((rule) => {
+      const from = Object.keys(rule)[0];
+      const to = rule[from];
+      const regex = new RegExp(from, 'g');
+      transWord = transWord.replace(regex, to);
+      });
+      }
 
-          if (transWord !== word) {
-            transWord = `<span class="translit">${transWord}</span>`;
-          }
+      if (transWord !== word) {
+      transWord = `<span class="translit">${transWord}</span>`;
+      }
 
-          outputLine += transWord + ' ';
-        }
+      outputLine += transWord + ' ';
+      }
 
-        outputLines.push(outputLine.trim());
+      outputLines.push(outputLine.trim());
       }
 
       const resultText = outputLines.join('<br>');
@@ -319,60 +407,74 @@
       const currentTime = new Date().toLocaleTimeString();
       const blockId = `transliterationBlock_${Date.now()}`;
       const transliterationBlock = `
-        <div class="transliteration-block" id="${blockId}" style="margin-bottom: 10px; border: 1px solid #ddd; padding: 10px; position: relative;">
-          <button class="delete-btn" onclick="deleteBlock('${blockId}')" style="position: absolute; top: 5px; right: 5px; cursor: pointer; color: red;">delete</button>
-          <button onclick="removeDiacriticsInBlock('${blockId}')" style="position: absolute; top: 5px; right: 55px; cursor: pointer; color: blue;">Без діакритиків</button>
+      <div class="transliteration-block" id="${blockId}" style="margin-bottom: 10px; border: 1px solid #ddd; padding: 10px; position: relative;">
+          <button class="delete-btn" onclick="deleteBlock('${blockId}')" style="position: absolute; top: 5px; right: 5px; cursor: pointer; color: red;">Видалити</button>
+          <button onclick="removeDiacriticsInBlock('${blockId}')" style="position: absolute; top: 5px; right: 82px; cursor: pointer; color: blue;">Без діакритиків</button>
+         <button onclick="copyToClipboard('${blockId}')" style="position: absolute; top: 5px; right: 193px; cursor: pointer; color: green;">Копіювати</button>
           <p>${currentTime}</p>
-          <p>${resultText.replace(/\n/g, '<br>')}</p>
-        </div>
+          <p class="result">${resultText.replace(/\n/g, '<br>')}</p>
+      </div>
       `;
 
       document.getElementById('outputDiv').insertAdjacentHTML('afterbegin', transliterationBlock);
 
       // Вивід результату у консоль
       console.log(resultText);
-    }
+      }
 
-    function deleteBlock(blockId) {
+
+      function copyToClipboard(blockId) {
+      const block = document.getElementById(blockId);
+      const resultText = block.querySelector('.result').innerText;
+
+      const tempInput = document.createElement('textarea');
+      tempInput.value = resultText;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempInput);
+      }
+
+      function deleteBlock(blockId) {
       const block = document.getElementById(blockId);
       if (block) {
-        block.remove();
+      block.remove();
       }
-    }
+      }
 
-    function removeDiacriticsInBlock(blockId) {
+      function removeDiacriticsInBlock(blockId) {
       const block = document.getElementById(blockId);
       const spans = block.querySelectorAll('.translit');
 
       spans.forEach((span) => {
-        let text = span.innerText;
+      let text = span.innerText;
 
-        for (const ruleSet of Object.values(noDiacryticTransliterationRules)) {
-          ruleSet.forEach((rule) => {
-            const from = Object.keys(rule)[0];
-            const to = rule[from];
-            const regex = new RegExp(from, 'g');
-            text = text.replace(regex, to);
-          });
-        }
-
-        span.innerText = text;
+      for (const ruleSet of Object.values(noDiacryticTransliterationRules)) {
+      ruleSet.forEach((rule) => {
+      const from = Object.keys(rule)[0];
+      const to = rule[from];
+      const regex = new RegExp(from, 'g');
+      text = text.replace(regex, to);
       });
-    }
+      }
 
-    function clearAll() {
+      span.innerText = text;
+      });
+      }
+
+      function clearAll() {
       document.getElementById('inputText').value = '';
       document.getElementById('outputDiv').innerHTML = '';
-    }
+      }
 
-    function adjustTextareaHeight() {
+      function adjustTextareaHeight() {
       const textarea = document.getElementById('inputText');
       textarea.style.height = 'auto';
       textarea.style.height = textarea.scrollHeight + 'px';
-    }
+      }
 
-    document.getElementById('inputText').addEventListener('input', adjustTextareaHeight);
-  </script>
-</body>
+      document.getElementById('inputText').addEventListener('input', adjustTextareaHeight);
+      </script>
+      </body>
 
-</html>
+      </html>
