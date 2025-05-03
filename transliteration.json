@@ -1,0 +1,3049 @@
+{
+  "words": [
+    {
+      "id": 2,
+      "transliteration": "«Аґні Пурана»",
+      "italic": "false"
+    },
+    {
+      "id": 3,
+      "transliteration": "<i>адвайта-веданта</i>",
+      "italic": "true"
+    },
+    {
+      "id": 4,
+      "transliteration": "«Амаракоша»",
+      "italic": "false"
+    },
+    {
+      "id": 5,
+      "transliteration": "анірвачанія",
+      "italic": "true"
+    },
+    {
+      "id": 6,
+      "transliteration": "антар’ямі",
+      "italic": "true"
+    },
+    {
+      "id": 7,
+      "transliteration": "анупапатті",
+      "italic": "true"
+    },
+    {
+      "id": 8,
+      "transliteration": "артхавада",
+      "italic": "true"
+    },
+    {
+      "id": 9,
+      "transliteration": "«Атхарва Веда»",
+      "italic": "false"
+    },
+    {
+      "id": 10,
+      "transliteration": "ачар’я",
+      "italic": "true"
+    },
+    {
+      "id": 11,
+      "transliteration": "ачінтья-шакті",
+      "italic": "true"
+    },
+    {
+      "id": 12,
+      "transliteration": "«Бгавартха-діпіка»",
+      "italic": "false"
+    },
+    {
+      "id": 13,
+      "transliteration": "Бгаґаван (хто?) (займенники з великої – Він, Його…)",
+      "italic": "false"
+    },
+    {
+      "id": 14,
+      "transliteration": "«Бгаґавата Пурана»",
+      "italic": "false"
+    },
+    {
+      "id": 15,
+      "transliteration": "«Бгаґавата-сандарбга»",
+      "italic": "false"
+    },
+    {
+      "id": 16,
+      "transliteration": "«Бгаґават-сандарбга» (див. попередній пункт: це два різні тексти!)",
+      "italic": "false"
+    },
+    {
+      "id": 17,
+      "transliteration": "«Бгаґавата-татпар’я-нірная»",
+      "italic": "false"
+    },
+    {
+      "id": 18,
+      "transliteration": "«Бгаґавад-ґіта»",
+      "italic": "false"
+    },
+    {
+      "id": 19,
+      "transliteration": "бгакті",
+      "italic": "true"
+    },
+    {
+      "id": 20,
+      "transliteration": "«Бгакті-расамріта-сіндгу»",
+      "italic": "false"
+    },
+    {
+      "id": 21,
+      "transliteration": "«Бгакті-ратнакара»",
+      "italic": "false"
+    },
+    {
+      "id": 22,
+      "transliteration": "«Бгакті-сандарбга»",
+      "italic": "false"
+    },
+    {
+      "id": 23,
+      "transliteration": "Бгактіведанта Свамі Прабгупада Абгай Чаранаравінда",
+      "italic": "false"
+    },
+    {
+      "id": 24,
+      "transliteration": "«Бгаллавея-шруті» (-сутра, -смріті, -шруті пишемо через дефіс із писанням)",
+      "italic": "false"
+    },
+    {
+      "id": 25,
+      "transliteration": "«Брахма-сутра»",
+      "italic": "false"
+    },
+    {
+      "id": 26,
+      "transliteration": "<i>шруті, смріті, сутра</i> (якщо це окреме слово в тексті, то курсивом)",
+      "italic": "false"
+    },
+    {
+      "id": 27,
+      "transliteration": "Брахман (що?), також - Брахма, «Брахма-самхіта»",
+      "italic": "false"
+    },
+    {
+      "id": 28,
+      "transliteration": "«Бріхат-сама»",
+      "italic": "false"
+    },
+    {
+      "id": 29,
+      "transliteration": "Вайкунтха",
+      "italic": "false"
+    },
+    {
+      "id": 30,
+      "transliteration": "вайшнав",
+      "italic": "false"
+    },
+    {
+      "id": 31,
+      "transliteration": "вайшнавізм",
+      "italic": "false"
+    },
+    {
+      "id": 32,
+      "transliteration": "Ваю",
+      "italic": "false"
+    },
+    {
+      "id": 33,
+      "transliteration": "Валлабга Бгатта",
+      "italic": "false"
+    },
+    {
+      "id": 34,
+      "transliteration": "Ванамалілала Ґосвамі",
+      "italic": "false"
+    },
+    {
+      "id": 35,
+      "transliteration": "Варуна",
+      "italic": "false"
+    },
+    {
+      "id": 36,
+      "transliteration": "Васудева",
+      "italic": "false"
+    },
+    {
+      "id": 37,
+      "transliteration": "Вачаспаті Мадгусудана",
+      "italic": "false"
+    },
+    {
+      "id": 38,
+      "transliteration": "<i>веданта</i> (філософська школа)",
+      "italic": "false"
+    },
+    {
+      "id": 39,
+      "transliteration": "«Веданта-сутра» (текст)",
+      "italic": "false"
+    },
+    {
+      "id": 40,
+      "transliteration": "Веданта Дешіка (святий з Шрі-сампрадаї)",
+      "italic": "false"
+    },
+    {
+      "id": 41,
+      "transliteration": "«Ведартха Санґраха»",
+      "italic": "false"
+    },
+    {
+      "id": 42,
+      "transliteration": "Веди",
+      "italic": "false"
+    },
+    {
+      "id": 43,
+      "transliteration": "Відура",
+      "italic": "false"
+    },
+    {
+      "id": 44,
+      "transliteration": "відья",
+      "italic": "false"
+    },
+    {
+      "id": 45,
+      "transliteration": "Вішвамітра Муні",
+      "italic": "false"
+    },
+    {
+      "id": 46,
+      "transliteration": "вішішта-адвайта ",
+      "italic": "true"
+    },
+    {
+      "id": 47,
+      "transliteration": "Вішну",
+      "italic": "false"
+    },
+    {
+      "id": 48,
+      "transliteration": "«Вішну Пурана»",
+      "italic": "false"
+    },
+    {
+      "id": 49,
+      "transliteration": "Вішну Пурі",
+      "italic": "false"
+    },
+    {
+      "id": 50,
+      "transliteration": "Вріндаван",
+      "italic": "false"
+    },
+    {
+      "id": 51,
+      "transliteration": "В’яса (ім’я)",
+      "italic": "false"
+    },
+    {
+      "id": 52,
+      "transliteration": "«Хамса-ґух’я-става»",
+      "italic": "false"
+    },
+    {
+      "id": 53,
+      "transliteration": "Хануман",
+      "italic": "false"
+    },
+    {
+      "id": 54,
+      "transliteration": "маха-мантра",
+      "italic": "true"
+    },
+    {
+      "id": 55,
+      "transliteration": "«Ґаруда Пурана»",
+      "italic": "false"
+    },
+    {
+      "id": 56,
+      "transliteration": "ґаудія-вайшнавізм, ґаудія-вайшнави",
+      "italic": "false"
+    },
+    {
+      "id": 57,
+      "transliteration": "Ґаудія-матх",
+      "italic": "false"
+    },
+    {
+      "id": 58,
+      "transliteration": "Ґаятрі (це про особу)",
+      "italic": "false"
+    },
+    {
+      "id": 59,
+      "transliteration": "«Ґітопанішада»",
+      "italic": "false"
+    },
+    {
+      "id": 60,
+      "transliteration": "Ґовінда",
+      "italic": "false"
+    },
+    {
+      "id": 61,
+      "transliteration": "«Ґовінда-бгаш’я»",
+      "italic": "false"
+    },
+    {
+      "id": 62,
+      "transliteration": "Ґолока",
+      "italic": "false"
+    },
+    {
+      "id": 63,
+      "transliteration": "Ґопал Бгатта Ґосвамі",
+      "italic": "false"
+    },
+    {
+      "id": 64,
+      "transliteration": "«Ґопал-чампу»",
+      "italic": "false"
+    },
+    {
+      "id": 65,
+      "transliteration": "ґуни",
+      "italic": "true"
+    },
+    {
+      "id": 66,
+      "transliteration": "ґ’яна (в санскритських віршах - джн̃на)",
+      "italic": "true"
+    },
+    {
+      "id": 67,
+      "transliteration": "«Дана-дгарма» (розділ із «Махабгарати»)",
+      "italic": "false"
+    },
+    {
+      "id": 68,
+      "transliteration": "дайтьї",
+      "italic": "true"
+    },
+    {
+      "id": 69,
+      "transliteration": "Двапара-юґа",
+      "italic": "true"
+    },
+    {
+      "id": 70,
+      "transliteration": "дгарма",
+      "italic": "true"
+    },
+    {
+      "id": 71,
+      "transliteration": "Джаґаннатх",
+      "italic": "false"
+    },
+    {
+      "id": 72,
+      "transliteration": "<i>джіва</i> — загальна назва",
+      "italic": "false"
+    },
+    {
+      "id": 73,
+      "transliteration": "Джіва Ґосвамі",
+      "italic": "false"
+    },
+    {
+      "id": 74,
+      "transliteration": "<i>дана-дгарма</i> (правила і благословення від роздачі пожертв)",
+      "italic": "false"
+    },
+    {
+      "id": 75,
+      "transliteration": "ітіхаса",
+      "italic": "true"
+    },
+    {
+      "id": 76,
+      "transliteration": "Ішвара",
+      "italic": "false"
+    },
+    {
+      "id": 77,
+      "transliteration": "йоґа, йоґ, прикметники: йоґа - йоґічний, йоґ - йоґівський",
+      "italic": "false"
+    },
+    {
+      "id": 78,
+      "transliteration": "«Йоґа-сутри»",
+      "italic": "false"
+    },
+    {
+      "id": 79,
+      "transliteration": "карма-канда",
+      "italic": "true"
+    },
+    {
+      "id": 80,
+      "transliteration": "кайвалья",
+      "italic": "true"
+    },
+    {
+      "id": 81,
+      "transliteration": "Каші",
+      "italic": "false"
+    },
+    {
+      "id": 82,
+      "transliteration": "Калі-юґа",
+      "italic": "true"
+    },
+    {
+      "id": 83,
+      "transliteration": "Крішна (особові, присвійні, зворотний займенники з великої – Він, Його…)",
+      "italic": "false"
+    },
+    {
+      "id": 84,
+      "transliteration": "Крішни-Баларами храм, Крішни-Баларами мандір",
+      "italic": "false"
+    },
+    {
+      "id": 85,
+      "transliteration": "Крішнадас Кавірадж",
+      "italic": "false"
+    },
+    {
+      "id": 86,
+      "transliteration": "Крішнадас Адгікарі",
+      "italic": "false"
+    },
+    {
+      "id": 87,
+      "transliteration": "«Крішна-сандарбга»",
+      "italic": "false"
+    },
+    {
+      "id": 88,
+      "transliteration": "Кумар",
+      "italic": "false"
+    },
+    {
+      "id": 89,
+      "transliteration": "«Лаґгу-бгаґаватамріта»",
+      "italic": "false"
+    },
+    {
+      "id": 90,
+      "transliteration": "Лакшмі",
+      "italic": "false"
+    },
+    {
+      "id": 91,
+      "transliteration": "ліла",
+      "italic": "true"
+    },
+    {
+      "id": 92,
+      "transliteration": "«Махабгарата»",
+      "italic": "false"
+    },
+    {
+      "id": 93,
+      "transliteration": "маха-вак’я",
+      "italic": "true"
+    },
+    {
+      "id": 94,
+      "transliteration": "Маха-Вішну",
+      "italic": "false"
+    },
+    {
+      "id": 95,
+      "transliteration": "Махапрабгу",
+      "italic": "false"
+    },
+    {
+      "id": 96,
+      "transliteration": "махапрасад",
+      "italic": "true"
+    },
+    {
+      "id": 97,
+      "transliteration": "Махарадж (у складі імені - з великої, як загальна назва - з маленької). Махараджа, Махараджу (-еві), Махараджа, Махараджем, Махараджі, Махарадже (Множина: Махараджі, Махараджів, Махараджам, Махараджів, Махараджами, Махараджі)",
+      "italic": "false"
+    },
+    {
+      "id": 98,
+      "transliteration": "махатма",
+      "italic": "true"
+    },
+    {
+      "id": 99,
+      "transliteration": "Мадгусудана Сарасваті",
+      "italic": "false"
+    },
+    {
+      "id": 100,
+      "transliteration": "Мадгва",
+      "italic": "false"
+    },
+    {
+      "id": 101,
+      "transliteration": "мая",
+      "italic": "true"
+    },
+    {
+      "id": 102,
+      "transliteration": "маяваді",
+      "italic": "true"
+    },
+    {
+      "id": 103,
+      "transliteration": "«Матсья Пурана»",
+      "italic": "false"
+    },
+    {
+      "id": 104,
+      "transliteration": "Матхура",
+      "italic": "false"
+    },
+    {
+      "id": 105,
+      "transliteration": "міманса",
+      "italic": "true"
+    },
+    {
+      "id": 106,
+      "transliteration": "Нарада",
+      "italic": "false"
+    },
+    {
+      "id": 107,
+      "transliteration": "Нараяна",
+      "italic": "false"
+    },
+    {
+      "id": 108,
+      "transliteration": "атма-бгу",
+      "italic": "true"
+    },
+    {
+      "id": 109,
+      "transliteration": "Нітьянанда",
+      "italic": "false"
+    },
+    {
+      "id": 110,
+      "transliteration": "Параматма (хто?, ж.рід, Вона, Наддуша)",
+      "italic": "false"
+    },
+    {
+      "id": 111,
+      "transliteration": "«Параматма-сандарбга»",
+      "italic": "false"
+    },
+    {
+      "id": 112,
+      "transliteration": "Парікшіт",
+      "italic": "false"
+    },
+    {
+      "id": 113,
+      "transliteration": "према",
+      "italic": "true"
+    },
+    {
+      "id": 114,
+      "transliteration": "«Пріті-сандарбга»",
+      "italic": "false"
+    },
+    {
+      "id": 115,
+      "transliteration": "Пурани, Самхіти, Упанішади, Ітіхаси, Араньяки (назви священних писань пишемо з великої літери, але «Брахма-самхіта»)",
+      "italic": "false"
+    },
+    {
+      "id": 116,
+      "transliteration": "Радга",
+      "italic": "false"
+    },
+    {
+      "id": 117,
+      "transliteration": "Радги-Дамодари храм (якщо складники є іменниками, то відмінюємо обидві частини: Жана-Жака, Крішни-Баларами, інші випадки розглядатимемо окремо)",
+      "italic": "false"
+    },
+    {
+      "id": 118,
+      "transliteration": "Рамананда Рай, р.в. - Рамананди Рая",
+      "italic": "false"
+    },
+    {
+      "id": 119,
+      "transliteration": "Рамануджа",
+      "italic": "false"
+    },
+    {
+      "id": 120,
+      "transliteration": "«Рамаяна»",
+      "italic": "false"
+    },
+    {
+      "id": 121,
+      "transliteration": "Ранґачар’я",
+      "italic": "false"
+    },
+    {
+      "id": 122,
+      "transliteration": "«Ріґ Веда»",
+      "italic": "false"
+    },
+    {
+      "id": 123,
+      "transliteration": "ріші",
+      "italic": "true"
+    },
+    {
+      "id": 124,
+      "transliteration": "Рупа Ґосвамі",
+      "italic": "false"
+    },
+    {
+      "id": 125,
+      "transliteration": "«Сахасра-нама-стотра»",
+      "italic": "false"
+    },
+    {
+      "id": 126,
+      "transliteration": "садгана",
+      "italic": "true"
+    },
+    {
+      "id": 127,
+      "transliteration": "«Сама Веда»",
+      "italic": "false"
+    },
+    {
+      "id": 128,
+      "transliteration": "самадгі",
+      "italic": "true"
+    },
+    {
+      "id": 129,
+      "transliteration": "Санатана Ґосвамі",
+      "italic": "false"
+    },
+    {
+      "id": 130,
+      "transliteration": "санкх’я",
+      "italic": "true"
+    },
+    {
+      "id": 131,
+      "transliteration": "санньясі, санньяса",
+      "italic": "true"
+    },
+    {
+      "id": 132,
+      "transliteration": "«Сарва-самвадіні»",
+      "italic": "false"
+    },
+    {
+      "id": 133,
+      "transliteration": "Сатья-юґа",
+      "italic": "true"
+    },
+    {
+      "id": 134,
+      "transliteration": "саюдж’я",
+      "italic": "true"
+    },
+    {
+      "id": 135,
+      "transliteration": "Сварупа Дамодара Ґосвамі",
+      "italic": "false"
+    },
+    {
+      "id": 136,
+      "transliteration": "«Сканда Пурана»",
+      "italic": "false"
+    },
+    {
+      "id": 137,
+      "transliteration": "смріті ",
+      "italic": "true"
+    },
+    {
+      "id": 138,
+      "transliteration": "Сута Ґосвамі",
+      "italic": "false"
+    },
+    {
+      "id": 139,
+      "transliteration": "«Таттва-сандарбга»",
+      "italic": "false"
+    },
+    {
+      "id": 140,
+      "transliteration": "Трета-юґа",
+      "italic": "true"
+    },
+    {
+      "id": 141,
+      "transliteration": "«Удджвала-ніламані»",
+      "italic": "false"
+    },
+    {
+      "id": 142,
+      "transliteration": "упакрама-паракрама",
+      "italic": "true"
+    },
+    {
+      "id": 143,
+      "transliteration": "«Харі-намамріта-в’якарана»",
+      "italic": "false"
+    },
+    {
+      "id": 144,
+      "transliteration": "Харі Шанкара дас",
+      "italic": "false"
+    },
+    {
+      "id": 145,
+      "transliteration": "хатха-йоґа",
+      "italic": "true"
+    },
+    {
+      "id": 146,
+      "transliteration": "Хіраньякашіпу",
+      "italic": "false"
+    },
+    {
+      "id": 147,
+      "transliteration": "Хрішікеша",
+      "italic": "false"
+    },
+    {
+      "id": 148,
+      "transliteration": "Чайтанья",
+      "italic": "false"
+    },
+    {
+      "id": 149,
+      "transliteration": "«Чайтанья-чандродая-натака»",
+      "italic": "false"
+    },
+    {
+      "id": 150,
+      "transliteration": "«Чайтанья-чарітамріта»",
+      "italic": "false"
+    },
+    {
+      "id": 151,
+      "transliteration": "чайтья",
+      "italic": "true"
+    },
+    {
+      "id": 152,
+      "transliteration": "Чанак’я Пандіт",
+      "italic": "false"
+    },
+    {
+      "id": 153,
+      "transliteration": "«Чхандоґ’я-упанішада»",
+      "italic": "false"
+    },
+    {
+      "id": 154,
+      "transliteration": "шакті",
+      "italic": "true"
+    },
+    {
+      "id": 155,
+      "transliteration": "Шанкара",
+      "italic": "false"
+    },
+    {
+      "id": 156,
+      "transliteration": "«Шат-сандарбга»",
+      "italic": "false"
+    },
+    {
+      "id": 157,
+      "transliteration": "«Шветашватара-упанішада»",
+      "italic": "false"
+    },
+    {
+      "id": 158,
+      "transliteration": "Шіва",
+      "italic": "false"
+    },
+    {
+      "id": 159,
+      "transliteration": "«Шрі-бгаш’я»",
+      "italic": "false"
+    },
+    {
+      "id": 160,
+      "transliteration": "Шрідгара Свамі",
+      "italic": "false"
+    },
+    {
+      "id": 161,
+      "transliteration": "брахма-рандгра",
+      "italic": "true"
+    },
+    {
+      "id": 162,
+      "transliteration": "«Шрімад-Бгаґаватам»",
+      "italic": "false"
+    },
+    {
+      "id": 163,
+      "transliteration": "Шукадева Ґосвамі",
+      "italic": "false"
+    },
+    {
+      "id": 164,
+      "transliteration": "«Яджур Веда»",
+      "italic": "false"
+    },
+    {
+      "id": 165,
+      "transliteration": "маха",
+      "italic": "false"
+    },
+    {
+      "id": 166,
+      "transliteration": "Харе",
+      "italic": "false"
+    },
+    {
+      "id": 167,
+      "transliteration": "юґа",
+      "italic": "true"
+    },
+    {
+      "id": 168,
+      "transliteration": "Юдгіштхіра",
+      "italic": "false"
+    },
+    {
+      "id": 169,
+      "transliteration": "Яґ’я (ім’я Господа)",
+      "italic": "false"
+    },
+    {
+      "id": 1690,
+      "transliteration": "яґ’я (жертвопринесення/ жертвоприношення ) - р.в. множини яґій",
+      "italic": "true"
+    },
+    {
+      "id": 170,
+      "transliteration": "анасуя",
+      "italic": "true"
+    },
+    {
+      "id": 171,
+      "transliteration": "садгу",
+      "italic": "true"
+    },
+    {
+      "id": 172,
+      "transliteration": "прабгу",
+      "italic": "true"
+    },
+    {
+      "id": 173,
+      "transliteration": "кармі",
+      "italic": "true"
+    },
+    {
+      "id": 174,
+      "transliteration": "арча-віґраха",
+      "italic": "true"
+    },
+    {
+      "id": 175,
+      "transliteration": "мудга",
+      "italic": "true"
+    },
+    {
+      "id": 176,
+      "transliteration": "ґуру",
+      "italic": "true"
+    },
+    {
+      "id": 177,
+      "transliteration": "Арчіша",
+      "italic": "false"
+    },
+    {
+      "id": 178,
+      "transliteration": "Васіштха",
+      "italic": "false"
+    },
+    {
+      "id": 179,
+      "transliteration": "Валмікі",
+      "italic": "false"
+    },
+    {
+      "id": 180,
+      "transliteration": "Відьядгара",
+      "italic": "false"
+    },
+    {
+      "id": 181,
+      "transliteration": "ґопі",
+      "italic": "true"
+    },
+    {
+      "id": 182,
+      "transliteration": "Дг’яна",
+      "italic": "false"
+    },
+    {
+      "id": 183,
+      "transliteration": "Джаґаннатх Пурі (у М.в. це поєднання слів залишаємо незмінним - у Джаґаннатх Пурі)",
+      "italic": "false"
+    },
+    {
+      "id": 184,
+      "transliteration": "дів’я-юґа",
+      "italic": "true"
+    },
+    {
+      "id": 185,
+      "transliteration": "Наймішаранья",
+      "italic": "false"
+    },
+    {
+      "id": 186,
+      "transliteration": "пара-пракріті",
+      "italic": "true"
+    },
+    {
+      "id": 187,
+      "transliteration": "«Прабгаса-кханда»",
+      "italic": "false"
+    },
+    {
+      "id": 188,
+      "transliteration": "Сатьялока",
+      "italic": "false"
+    },
+    {
+      "id": 189,
+      "transliteration": "Брахмалока",
+      "italic": "false"
+    },
+    {
+      "id": 190,
+      "transliteration": "пара-вйома",
+      "italic": "true"
+    },
+    {
+      "id": 191,
+      "transliteration": "Вайкунтхалока",
+      "italic": "false"
+    },
+    {
+      "id": 192,
+      "transliteration": "вібгуті-бгіннам",
+      "italic": "true"
+    },
+    {
+      "id": 193,
+      "transliteration": "Бгарата",
+      "italic": "false"
+    },
+    {
+      "id": 194,
+      "transliteration": "Абсолюта (якщо про особу), абсолюту (якщо про абстрактне поняття)",
+      "italic": "false"
+    },
+    {
+      "id": 195,
+      "transliteration": "Сіддгалока",
+      "italic": "false"
+    },
+    {
+      "id": 196,
+      "transliteration": "бгава",
+      "italic": "true"
+    },
+    {
+      "id": 197,
+      "transliteration": "Прітху",
+      "italic": "false"
+    },
+    {
+      "id": 198,
+      "transliteration": "Махавіра",
+      "italic": "false"
+    },
+    {
+      "id": 199,
+      "transliteration": "Шрі Мадгвачар’я",
+      "italic": "false"
+    },
+    {
+      "id": 200,
+      "transliteration": "Пурушоттама",
+      "italic": "false"
+    },
+    {
+      "id": 201,
+      "transliteration": "Бгуварлока",
+      "italic": "false"
+    },
+    {
+      "id": 202,
+      "transliteration": "Махарлока",
+      "italic": "false"
+    },
+    {
+      "id": 203,
+      "transliteration": "авідья",
+      "italic": "true"
+    },
+    {
+      "id": 204,
+      "transliteration": "ванапрастха",
+      "italic": "true"
+    },
+    {
+      "id": 205,
+      "transliteration": "дгама",
+      "italic": "true"
+    },
+    {
+      "id": 206,
+      "transliteration": "Деварші Нарада",
+      "italic": "false"
+    },
+    {
+      "id": 207,
+      "transliteration": "Ґарбгодакашаї Вішну",
+      "italic": "false"
+    },
+    {
+      "id": 208,
+      "transliteration": "Шрі Ваджранґаджі",
+      "italic": "false"
+    },
+    {
+      "id": 209,
+      "transliteration": "ач’юта-катха",
+      "italic": "true"
+    },
+    {
+      "id": 210,
+      "transliteration": "Джаґай",
+      "italic": "false"
+    },
+    {
+      "id": 211,
+      "transliteration": "Мадгай",
+      "italic": "false"
+    },
+    {
+      "id": 212,
+      "transliteration": "Каранодакашаї Вішну",
+      "italic": "false"
+    },
+    {
+      "id": 213,
+      "transliteration": "«Панчаратра»",
+      "italic": "false"
+    },
+    {
+      "id": 214,
+      "transliteration": "нітьям",
+      "italic": "true"
+    },
+    {
+      "id": 215,
+      "transliteration": "апад-дгарма",
+      "italic": "true"
+    },
+    {
+      "id": 216,
+      "transliteration": "нітья-мукта",
+      "italic": "true"
+    },
+    {
+      "id": 217,
+      "transliteration": "Харідас Тхакур",
+      "italic": "false"
+    },
+    {
+      "id": 218,
+      "transliteration": "Каустубга",
+      "italic": "false"
+    },
+    {
+      "id": 219,
+      "transliteration": "Тхакур",
+      "italic": "false"
+    },
+    {
+      "id": 220,
+      "transliteration": "адг’ятміка",
+      "italic": "true"
+    },
+    {
+      "id": 221,
+      "transliteration": "Ґовардган",
+      "italic": "false"
+    },
+    {
+      "id": 222,
+      "transliteration": "Ґанґа",
+      "italic": "false"
+    },
+    {
+      "id": 223,
+      "transliteration": "Бгактісіддганта",
+      "italic": "false"
+    },
+    {
+      "id": 224,
+      "transliteration": "Шріла Вішванатх Чакраварті Tхакур",
+      "italic": "false"
+    },
+    {
+      "id": 225,
+      "transliteration": "Бріхаспаті",
+      "italic": "false"
+    },
+    {
+      "id": 226,
+      "transliteration": "Кх’яті",
+      "italic": "false"
+    },
+    {
+      "id": 227,
+      "transliteration": "Сумалья",
+      "italic": "false"
+    },
+    {
+      "id": 228,
+      "transliteration": "дайтья",
+      "italic": "true"
+    },
+    {
+      "id": 229,
+      "transliteration": "нітья-ліла",
+      "italic": "true"
+    },
+    {
+      "id": 230,
+      "transliteration": "юґаватара",
+      "italic": "true"
+    },
+    {
+      "id": 231,
+      "transliteration": "Праджапаті",
+      "italic": "false"
+    },
+    {
+      "id": 2310,
+      "transliteration": "праджапаті (посада)",
+      "italic": "true"
+    },
+    {
+      "id": 232,
+      "transliteration": "<i>брахмачар’я</i> (процес), <i>брахмачарі</i> (людина)",
+      "italic": "false"
+    },
+    {
+      "id": 233,
+      "transliteration": "<i>шротрін</i> (у віршах - з діакритикою)",
+      "italic": "false"
+    },
+    {
+      "id": 234,
+      "transliteration": "Будда",
+      "italic": "false"
+    },
+    {
+      "id": 235,
+      "transliteration": "Бадарікашрам",
+      "italic": "false"
+    },
+    {
+      "id": 236,
+      "transliteration": "Набгаґа і Нбгґа - розрізнення через діакритику, аналогічно - Всудева і Васудева",
+      "italic": "false"
+    },
+    {
+      "id": 237,
+      "transliteration": "Каш’япа Муні",
+      "italic": "false"
+    },
+    {
+      "id": 238,
+      "transliteration": "Бгріґу Муні",
+      "italic": "false"
+    },
+    {
+      "id": 239,
+      "transliteration": "дакшіна",
+      "italic": "true"
+    },
+    {
+      "id": 240,
+      "transliteration": "Таполока",
+      "italic": "false"
+    },
+    {
+      "id": 241,
+      "transliteration": "Дварака Пурі (обидва слова невідмінювані)",
+      "italic": "false"
+    },
+    {
+      "id": 242,
+      "transliteration": "Сударшана-чакра - ж.рід, диск Сударшана - ч.р. (використовуємо обидва варіанти, Сударшана-чакра відмінюємо тільки другу частину, диск Сударшана - відмінюємо обидва слова; НЕ використовуємо «диск Сударшана чакра»)",
+      "italic": "false"
+    },
+    {
+      "id": 243,
+      "transliteration": "рама-радж’я",
+      "italic": "true"
+    },
+    {
+      "id": 244,
+      "transliteration": "крішна-бгакті",
+      "italic": "true"
+    },
+    {
+      "id": 245,
+      "transliteration": "шактьявеша-аватара",
+      "italic": "true"
+    },
+    {
+      "id": 246,
+      "transliteration": "Бгарата-варша",
+      "italic": "false"
+    },
+    {
+      "id": 247,
+      "transliteration": "Кетумала-варша",
+      "italic": "false"
+    },
+    {
+      "id": 248,
+      "transliteration": "Вана-парва («Махабгарата», Вірата-парва, 1.3)",
+      "italic": "false"
+    },
+    {
+      "id": 249,
+      "transliteration": "Аді-ліла",
+      "italic": "false"
+    },
+    {
+      "id": 250,
+      "transliteration": "дасья",
+      "italic": "true"
+    },
+    {
+      "id": 251,
+      "transliteration": "тапасья",
+      "italic": "true"
+    },
+    {
+      "id": 252,
+      "transliteration": "«Шрімад Бгаґавад-ґіта»",
+      "italic": "false"
+    },
+    {
+      "id": 253,
+      "transliteration": "<i>ґандгарв</i>; у р.в. мн. пишемо закінчення -ів",
+      "italic": "false"
+    },
+    {
+      "id": 254,
+      "transliteration": "<i>яван</i>; у р.в. мн. пишемо закінчення -ів",
+      "italic": "false"
+    },
+    {
+      "id": 255,
+      "transliteration": "Кулашекхара",
+      "italic": "false"
+    },
+    {
+      "id": 256,
+      "transliteration": "«Мукунда-мала-стотра»",
+      "italic": "false"
+    },
+    {
+      "id": 257,
+      "transliteration": "Прачінабархішат",
+      "italic": "false"
+    },
+    {
+      "id": 258,
+      "transliteration": "пандіт",
+      "italic": "true"
+    },
+    {
+      "id": 259,
+      "transliteration": "ямадут",
+      "italic": "true"
+    },
+    {
+      "id": 260,
+      "transliteration": "вішнудут",
+      "italic": "true"
+    },
+    {
+      "id": 261,
+      "transliteration": "Айодг’я",
+      "italic": "false"
+    },
+    {
+      "id": 262,
+      "transliteration": "«Бріхад-вайшнава Тантра»",
+      "italic": "false"
+    },
+    {
+      "id": 263,
+      "transliteration": "аюрведа",
+      "italic": "true"
+    },
+    {
+      "id": 264,
+      "transliteration": "<i>бгакті-йоґа</i> (слова зі складником -йоґа пишемо курсивом)",
+      "italic": "false"
+    },
+    {
+      "id": 265,
+      "transliteration": "«Нараяна-кавача» (усі інші -кавачі також пишемо аналогічно з дефісом у лапках)",
+      "italic": "false"
+    },
+    {
+      "id": 266,
+      "transliteration": "Айдавіді",
+      "italic": "false"
+    },
+    {
+      "id": 267,
+      "transliteration": "«Дашаватара-стотра»  (за аналогією з -кавача пишемо всі частинки -стотра з дефісом: «Туласі-стотра»)",
+      "italic": "false"
+    },
+    {
+      "id": 268,
+      "transliteration": "«<i>ґуна-аватара</i>», «<i>ліла-аватара</i>», «<i>манвантара-аватара</i>» ...<i>-аватара</i> пишемо з дефісом, окрім слова «<i>юґаватара</i>»",
+      "italic": "false"
+    },
+    {
+      "id": 269,
+      "transliteration": "Аллаг",
+      "italic": "false"
+    },
+    {
+      "id": 270,
+      "transliteration": "<i>яґ’я</i> Дакші / Дакшина <i>яґ’я</i> / Дакша-<i>яґ’я</i>",
+      "italic": "false"
+    },
+    {
+      "id": 271,
+      "transliteration": "маха-бгаґавата",
+      "italic": "true"
+    },
+    {
+      "id": 272,
+      "transliteration": "Вайясакі",
+      "italic": "false"
+    },
+    {
+      "id": 273,
+      "transliteration": "Відьядгара-лока, Кімпуруша-лока (якщо у слові 4 склади й більше, то пишемо з дефісом, у простих словах пишемо разом (Сатьялока, Бгурлока)). Дефіс ставимо в тих випадках, коли слова довгі і їх важко вимовляти. Тому пишемо Вайкунтхалока: бо у слові три склади, а не 4",
+      "italic": "false"
+    },
+    {
+      "id": 274,
+      "transliteration": "Дашама-скандга (без лапок)",
+      "italic": "false"
+    },
+    {
+      "id": 275,
+      "transliteration": "«Брахма-вайварта Пурана»",
+      "italic": "false"
+    },
+    {
+      "id": 276,
+      "transliteration": "Чір-ґгат",
+      "italic": "false"
+    },
+    {
+      "id": 277,
+      "transliteration": "ачінтья-бгеда-абгеда-таттва",
+      "italic": "true"
+    },
+    {
+      "id": 278,
+      "transliteration": "хіпі",
+      "italic": "false"
+    },
+    {
+      "id": 279,
+      "transliteration": "гінді",
+      "italic": "false"
+    },
+    {
+      "id": 280,
+      "transliteration": "міфологія",
+      "italic": "false"
+    },
+    {
+      "id": 281,
+      "transliteration": "Джая, Віджая – особи, з.в. - Джаю, Віджаю ; <i>джай, джая</i> – як вигук (Слава!) використовуємо обидва варіанти",
+      "italic": "false"
+    },
+    {
+      "id": 282,
+      "transliteration": "Олександр Македонський",
+      "italic": "false"
+    },
+    {
+      "id": 283,
+      "transliteration": "ґгат",
+      "italic": "true"
+    },
+    {
+      "id": 284,
+      "transliteration": "Прабгас",
+      "italic": "true"
+    },
+    {
+      "id": 285,
+      "transliteration": "брахма-карма",
+      "italic": "true"
+    },
+    {
+      "id": 286,
+      "transliteration": "карма",
+      "italic": "false"
+    },
+    {
+      "id": 287,
+      "transliteration": "Двапара",
+      "italic": "false"
+    },
+    {
+      "id": 288,
+      "transliteration": "Калі",
+      "italic": "false"
+    },
+    {
+      "id": 289,
+      "transliteration": "мантра",
+      "italic": "true"
+    },
+    {
+      "id": 290,
+      "transliteration": "<i>карма</i> (у складі термінів-композитів пишемо курсивом: <i>прарабдга-карма, карма-йоґа</i>)",
+      "italic": "false"
+    },
+    {
+      "id": 291,
+      "transliteration": "Mалаядгваджа",
+      "italic": "false"
+    },
+    {
+      "id": 292,
+      "transliteration": "Вайдарбгі",
+      "italic": "false"
+    },
+    {
+      "id": 293,
+      "transliteration": "відгі-марґ",
+      "italic": "true"
+    },
+    {
+      "id": 294,
+      "transliteration": "раґа-марґ",
+      "italic": "true"
+    },
+    {
+      "id": 295,
+      "transliteration": "<i>сакх’я</i> (коли це цитата у вірші, де є інші санскритські слова, то пишемо <i>сакхям</i>)",
+      "italic": "false"
+    },
+    {
+      "id": 296,
+      "transliteration": "Аґастья",
+      "italic": "false"
+    },
+    {
+      "id": 297,
+      "transliteration": "Дрідгач’юта",
+      "italic": "false"
+    },
+    {
+      "id": 298,
+      "transliteration": "Ідгмаваха",
+      "italic": "false"
+    },
+    {
+      "id": 299,
+      "transliteration": "туласі (рослина)",
+      "italic": "true"
+    },
+    {
+      "id": 300,
+      "transliteration": "«Ґурв-аштака»",
+      "italic": "false"
+    },
+    {
+      "id": 301,
+      "transliteration": "...<i>-сампрадая<i> (курсивом) ",
+      "italic": "false"
+    },
+    {
+      "id": 302,
+      "transliteration": "Ананта",
+      "italic": "false"
+    },
+    {
+      "id": 303,
+      "transliteration": "екадаші",
+      "italic": "true"
+    },
+    {
+      "id": 304,
+      "transliteration": "Туласі (особистість)",
+      "italic": "false"
+    },
+    {
+      "id": 305,
+      "transliteration": "ґурукула",
+      "italic": "true"
+    },
+    {
+      "id": 306,
+      "transliteration": "<i>праші</i>, стріли <i>шакті</i>, <i>кхадґи</i> і <i>томари</i> (назви видів зброї )",
+      "italic": "false"
+    },
+    {
+      "id": 307,
+      "transliteration": "«Ваявія Тантра»",
+      "italic": "false"
+    },
+    {
+      "id": 308,
+      "transliteration": "Калькутта",
+      "italic": "false"
+    },
+    {
+      "id": 309,
+      "transliteration": "Яуванашва",
+      "italic": "false"
+    },
+    {
+      "id": 310,
+      "transliteration": "слова з частиною -дгама пишемо з дефісом: Дварака-дгама, Вайкунтха-дгама, Враджа-дгама (без курсиву)",
+      "italic": "false"
+    },
+    {
+      "id": 311,
+      "transliteration": "брахмаджйоті",
+      "italic": "true"
+    },
+    {
+      "id": 312,
+      "transliteration": "Макхан-чор, р.в. Макхан-чора",
+      "italic": "false"
+    },
+    {
+      "id": 313,
+      "transliteration": "вайдур’я-мані, мараката-мані",
+      "italic": "true"
+    },
+    {
+      "id": 314,
+      "transliteration": "брахмастра",
+      "italic": "true"
+    },
+    {
+      "id": 315,
+      "transliteration": "чайтра (місяць)",
+      "italic": "true"
+    },
+    {
+      "id": 316,
+      "transliteration": "арії",
+      "italic": "false"
+    },
+    {
+      "id": 317,
+      "transliteration": "Уттара",
+      "italic": "false"
+    },
+    {
+      "id": 318,
+      "transliteration": "мантра ґаятрі",
+      "italic": "true"
+    },
+    {
+      "id": 319,
+      "transliteration": "Махеш, Махеш-дгама",
+      "italic": "false"
+    },
+    {
+      "id": 320,
+      "transliteration": "Ґарґа Муні",
+      "italic": "false"
+    },
+    {
+      "id": 321,
+      "transliteration": "Джаґаннатх Мішра - Р.в. Джаґаннатха Мішри",
+      "italic": "false"
+    },
+    {
+      "id": 322,
+      "transliteration": "ашрам; Р.в. - ашраму",
+      "italic": "true"
+    },
+    {
+      "id": 323,
+      "transliteration": "вайшнава-сампрадая",
+      "italic": "true"
+    },
+    {
+      "id": 324,
+      "transliteration": "Кшіра-чора-ґопінатх - відмінюємо тільки останнє слово",
+      "italic": "false"
+    },
+    {
+      "id": 325,
+      "transliteration": "Каттак (Р.в. Каттака - як Києва)",
+      "italic": "false"
+    },
+    {
+      "id": 326,
+      "transliteration": "найшади (як назва племені)",
+      "italic": "true"
+    },
+    {
+      "id": 327,
+      "transliteration": "ґгі",
+      "italic": "true"
+    },
+    {
+      "id": 328,
+      "transliteration": "махат-таттва",
+      "italic": "true"
+    },
+    {
+      "id": 329,
+      "transliteration": "Шрі Шрі Радга-Мадгава (Радга-Крішна) -  д.в.: поклони Шрі Шрі Радзі-Мадгаві (Радзі-Крішні)",
+      "italic": "false"
+    },
+    {
+      "id": 330,
+      "transliteration": "Шрі Нрісімха-пранама (як заголовок, коли ж у тексті це як назва молитви, то беремо в лапки «Шрі Нрісімха-пранама»)",
+      "italic": "false"
+    },
+    {
+      "id": 331,
+      "transliteration": "Шрі Туласі-кіртан (як заголовок, коли ж у тексті це як назва молитви, то беремо в лапки «Шрі Туласі-кіртан»)",
+      "italic": "false"
+    },
+    {
+      "id": 332,
+      "transliteration": "Шрі Ґуру-вандана (як заголовок, коли ж у тексті це як назва молитви, то беремо в лапки «Шрі Ґуру-вандана»)",
+      "italic": "false"
+    },
+    {
+      "id": 333,
+      "transliteration": "патхани (пуштуни) - пишемо обидва слова, використовуємо в дужках пояснення",
+      "italic": "false"
+    },
+    {
+      "id": 334,
+      "transliteration": "<i>ар’ян</i> чи <i>арій</i>: <i>ар’яни</i> (<i>арії</i>) - пишемо обидва слова: Кожен відданий, який повторює святе ім’я Господа, належить до найкращих серед <i>ар’янів</i> (<i>аріїв</i>). Tой, хто не вивчив Веди, не може стати <i>ар’яном</i>  (<i>арієм</i>)...Якщо термін повторюється в одному вірші, то недоречно щоразу писати <i>ар’яни</i> (<i>арії</i>), тут достатньо 1 слова - <i>ар’яни</i>",
+      "italic": "false"
+    },
+    {
+      "id": 335,
+      "transliteration": "санкіртана",
+      "italic": "true"
+    },
+    {
+      "id": 336,
+      "transliteration": "кіртан (р.в. - кіртану)",
+      "italic": "true"
+    },
+    {
+      "id": 337,
+      "transliteration": "Шрі Туласі-пранама",
+      "italic": "false"
+    },
+    {
+      "id": 338,
+      "transliteration": "Туласі-деві ",
+      "italic": "false"
+    },
+    {
+      "id": 339,
+      "transliteration": "Шрі Туласі-прадакшіна-мантра",
+      "italic": "false"
+    },
+    {
+      "id": 340,
+      "transliteration": "раса",
+      "italic": "true"
+    },
+    {
+      "id": 341,
+      "transliteration": "пуджа",
+      "italic": "true"
+    },
+    {
+      "id": 342,
+      "transliteration": "кунджа",
+      "italic": "true"
+    },
+    {
+      "id": 343,
+      "transliteration": "шастра",
+      "italic": "true"
+    },
+    {
+      "id": 344,
+      "transliteration": "Ґаура-араті",
+      "italic": "false"
+    },
+    {
+      "id": 345,
+      "transliteration": "араті",
+      "italic": "true"
+    },
+    {
+      "id": 346,
+      "transliteration": "Джахнаві (Ґанґа)",
+      "italic": "false"
+    },
+    {
+      "id": 347,
+      "transliteration": "Ґададгар",
+      "italic": "false"
+    },
+    {
+      "id": 348,
+      "transliteration": "чамара",
+      "italic": "true"
+    },
+    {
+      "id": 349,
+      "transliteration": "Санджай Пандіт",
+      "italic": "false"
+    },
+    {
+      "id": 350,
+      "transliteration": "Мукунда Датта ",
+      "italic": "false"
+    },
+    {
+      "id": 351,
+      "transliteration": "Васу Ґгош",
+      "italic": "false"
+    },
+    {
+      "id": 352,
+      "transliteration": "Нарахарі Саркар",
+      "italic": "false"
+    },
+    {
+      "id": 353,
+      "transliteration": "каратали",
+      "italic": "true"
+    },
+    {
+      "id": 354,
+      "transliteration": "«Ґітавалі»",
+      "italic": "false"
+    },
+    {
+      "id": 355,
+      "transliteration": "Врадж (р.в. Враджу)",
+      "italic": "true"
+    },
+    {
+      "id": 356,
+      "transliteration": "«Прасада-севая» (як молитва в лапках)",
+      "italic": "true"
+    },
+    {
+      "id": 357,
+      "transliteration": "<i>пранаті</i> (Шріла Бгактісіддганта Сарасваті <i>пранаті</i>, Шріла Гауракішор <i>пранаті</i>, Шріла Бгактівінод <i>пранаті</i>)",
+      "italic": "false"
+    },
+    {
+      "id": 358,
+      "transliteration": "Шрі Варшабганаві-деві-даїта дас",
+      "italic": "false"
+    },
+    {
+      "id": 359,
+      "transliteration": "Саччідананда Бгактівінод",
+      "italic": "false"
+    },
+    {
+      "id": 360,
+      "transliteration": "Адіті, Марути (як прізвища)",
+      "italic": "false"
+    },
+    {
+      "id": 361,
+      "transliteration": "Радгадеш",
+      "italic": "false"
+    },
+    {
+      "id": 362,
+      "transliteration": "Аніруддга",
+      "italic": "false"
+    },
+    {
+      "id": 363,
+      "transliteration": "Ґанеша",
+      "italic": "false"
+    },
+    {
+      "id": 364,
+      "transliteration": "<i>Сваямбгува-манвантара</i>",
+      "italic": "true"
+    },
+    {
+      "id": 365,
+      "transliteration": "<i>заміндар</i>",
+      "italic": "true"
+    },
+    {
+      "id": 366,
+      "transliteration": "Ґаутама-<i>ґотра</i>",
+      "italic": "true"
+    },
+    {
+      "id": 367,
+      "transliteration": "Уттар-Прадеш (Р.в. Уттар-Прадешу)",
+      "italic": "false"
+    },
+    {
+      "id": 368,
+      "transliteration": "псевдоґуру / несправжній <i>ґуру</i>  (псевдо + санскритське слово пишемо без курсиву)",
+      "italic": "false"
+    },
+    {
+      "id": 369,
+      "transliteration": "<i>ґрамйа-матіх</i> (схильність до чуттєвого задоволення) - з діакритикою",
+      "italic": "false"
+    },
+    {
+      "id": 370,
+      "transliteration": "<i>панчаратріка</i>, «Панчаратра»",
+      "italic": "true"
+    },
+    {
+      "id": 371,
+      "transliteration": "Дгананджай",
+      "italic": "false"
+    },
+    {
+      "id": 372,
+      "transliteration": "Джанамеджая",
+      "italic": "false"
+    },
+    {
+      "id": 373,
+      "transliteration": "Срінджай",
+      "italic": "false"
+    },
+    {
+      "id": 374,
+      "transliteration": "Шантану (невідмінюване)",
+      "italic": "false"
+    },
+    {
+      "id": 375,
+      "transliteration": "Ґаджахвая (р.в. - Ґаджахваї)",
+      "italic": "false"
+    },
+    {
+      "id": 376,
+      "transliteration": "<i>сач-чід-ананда</i> (окремо слова: <i>сат, чіт</i>)",
+      "italic": "false"
+    },
+    {
+      "id": 377,
+      "transliteration": "<i>бгоґа<i>",
+      "italic": "true"
+    },
+    {
+      "id": 378,
+      "transliteration": "Сваха (Дружина Аґні)",
+      "italic": "false"
+    },
+    {
+      "id": 379,
+      "transliteration": "молитви «Хамса-ґух’я»",
+      "italic": "false"
+    },
+    {
+      "id": 380,
+      "transliteration": "<i>йоґі</i> та <i>бгоґі</i> (як виняток)",
+      "italic": "false"
+    },
+    {
+      "id": 381,
+      "transliteration": "<i>ґо-ракш’я</i>",
+      "italic": "true"
+    },
+    {
+      "id": 382,
+      "transliteration": "<i>акшаухіні</i> - жіночий рід, невідмінюване",
+      "italic": "false"
+    },
+    {
+      "id": 383,
+      "transliteration": "<i>ґуру</i> махарадж",
+      "italic": "false"
+    },
+    {
+      "id": 384,
+      "transliteration": "«Шікшаштака» - Д.в. «Шікшаштаці»",
+      "italic": "true"
+    },
+    {
+      "id": 385,
+      "transliteration": "<i>матаджі</i>",
+      "italic": "true"
+    },
+    {
+      "id": 386,
+      "transliteration": "демон Мая Данава",
+      "italic": "false"
+    },
+    {
+      "id": 387,
+      "transliteration": "<i>йоґамая</i>",
+      "italic": "true"
+    },
+    {
+      "id": 388,
+      "transliteration": "<i>махамая</i>",
+      "italic": "true"
+    },
+    {
+      "id": 389,
+      "transliteration": "Тр’якша",
+      "italic": "false"
+    },
+    {
+      "id": 390,
+      "transliteration": "<i>лакх, лакхів</i>",
+      "italic": "true"
+    },
+    {
+      "id": 391,
+      "transliteration": "Трайяруні",
+      "italic": "false"
+    },
+    {
+      "id": 392,
+      "transliteration": "<i>варна</i>",
+      "italic": "true"
+    },
+    {
+      "id": 393,
+      "transliteration": "«Тантра-сара»",
+      "italic": "false"
+    },
+    {
+      "id": 393,
+      "transliteration": "Санджай, Джай",
+      "italic": "false"
+    },
+    {
+      "id": 394,
+      "transliteration": "Ґопал",
+      "italic": "false"
+    },
+    {
+      "id": 395,
+      "transliteration": "набоб (це загальновживане слово)",
+      "italic": "false"
+    },
+    {
+      "id": 396,
+      "transliteration": "<i>ліла-пурушоттама</i> (коли вжито як термін)",
+      "italic": "false"
+    },
+    {
+      "id": 397,
+      "transliteration": "Вішнупад",
+      "italic": "false"
+    },
+    {
+      "id": 398,
+      "transliteration": "<i>неар’яни</i> (неарії) - перший раз у тексті вірша пишемо 2 слова, а далі тільки 1 слово - <i>неар’яни</i>. ",
+      "italic": "false"
+    },
+    {
+      "id": 399,
+      "transliteration": "Віра-прабганджана-матх",
+      "italic": "false"
+    },
+    {
+      "id": 400,
+      "transliteration": "девамая",
+      "italic": "true"
+    },
+    {
+      "id": 401,
+      "transliteration": "Макара-санкранті (те саме написання стосується й інших «-санкранті»)",
+      "italic": "false"
+    },
+    {
+      "id": 402,
+      "transliteration": "Парабрахман",
+      "italic": "false"
+    },
+    {
+      "id": 403,
+      "transliteration": "Сіта-деві",
+      "italic": "false"
+    },
+    {
+      "id": 404,
+      "transliteration": "Маха-Лакшмі",
+      "italic": "false"
+    },
+    {
+      "id": 405,
+      "transliteration": "",
+      "italic": "true"
+    },
+    {
+      "id": 406,
+      "transliteration": "вішну-таттва",
+      "italic": "true"
+    },
+    {
+      "id": 407,
+      "transliteration": "Дадг’янча (у 4.1.42: обітниця Дадг'янча, обітниця за назвою Дадг'янча)",
+      "italic": "false"
+    },
+    {
+      "id": 408,
+      "transliteration": "Гімалаї",
+      "italic": "false"
+    },
+    {
+      "id": 409,
+      "transliteration": "Алакапурі  (простежити узгодження цього слова з іншими главами)",
+      "italic": "false"
+    },
+    {
+      "id": 410,
+      "transliteration": "Ґаудія-вайшнава-<i>сампрадая</i>",
+      "italic": "false"
+    },
+    {
+      "id": 411,
+      "transliteration": "<i>сваха</i> (вигук під час яґ’ї)",
+      "italic": "true"
+    },
+    {
+      "id": 412,
+      "transliteration": "поєднання з <i>пранама</i>, <i>пранаті</i> пишемо через дефіс. У заголовках без курсиву: Шрі Рупа-пранама",
+      "italic": "false"
+    },
+    {
+      "id": 413,
+      "transliteration": "Йоґамая (особа)",
+      "italic": "false"
+    },
+    {
+      "id": 414,
+      "transliteration": "",
+      "italic": "false"
+    },
+    {
+      "id": 415,
+      "transliteration": "",
+      "italic": "false"
+    },
+    {
+      "id": 416,
+      "transliteration": "Маха-пуруша",
+      "italic": "false"
+    },
+    {
+      "id": 417,
+      "transliteration": "Пратічі-Маханаді",
+      "italic": "false"
+    },
+    {
+      "id": 418,
+      "transliteration": "Крішна-Двайпаяна В’яса",
+      "italic": "false"
+    },
+    {
+      "id": 500,
+      "transliteration": "<i>брахман</i> (р.в. одн. - <i>брахмана</i>, р.в. мн - <i>брахманів</i>), <i>брахмані</i> (ж.р.)",
+      "italic": "false"
+    },
+    {
+      "id": 501,
+      "transliteration": "<i>кшатрій</i> ",
+      "italic": "true"
+    },
+    {
+      "id": 502,
+      "transliteration": "<i>вайш’я</i> (<i>вайш’їв</i>)",
+      "italic": "true"
+    },
+    {
+      "id": 503,
+      "transliteration": "<i>шудра</i>(мн. <i>шудр</i>)",
+      "italic": "true"
+    },
+    {
+      "id": 504,
+      "transliteration": "вайшнав (р.в. - вайшнава, вайшнавів )",
+      "italic": "false"
+    },
+    {
+      "id": 505,
+      "transliteration": "Любові, пристрасті, смерті і т. д. Завжди обираємо закінчення - і.",
+      "italic": "false"
+    },
+    {
+      "id": 506,
+      "transliteration": "ашрам",
+      "italic": "true"
+    },
+    {
+      "id": 507,
+      "transliteration": "Господнє сяйво (милість, відданий) - і сяйво (милість, відданий) Господа. Можливі обидва варіанти.",
+      "italic": "false"
+    },
+    {
+      "id": 508,
+      "transliteration": "ґандгарв",
+      "italic": "true"
+    },
+    {
+      "id": 509,
+      "transliteration": "ракшас",
+      "italic": "true"
+    },
+    {
+      "id": 510,
+      "transliteration": "дас",
+      "italic": "false"
+    },
+    {
+      "id": 511,
+      "transliteration": "Бгактівінод Тхакур",
+      "italic": "false"
+    },
+    {
+      "id": 512,
+      "transliteration": "Махарадж (Дгармарадж, Ямарадж)",
+      "italic": "false"
+    },
+    {
+      "id": 513,
+      "transliteration": "Тхакур",
+      "italic": "false"
+    },
+    {
+      "id": 514,
+      "transliteration": "Господеві (рекомендовано), Господові, Господу (можна залежно від контексту).",
+      "italic": "false"
+    },
+    {
+      "id": 515,
+      "transliteration": "Хастінапур",
+      "italic": "false"
+    },
+    {
+      "id": 516,
+      "transliteration": "привабленість",
+      "italic": "false"
+    },
+    {
+      "id": 517,
+      "transliteration": "Ґолока Вріндаван (р.в. Ґолоки Вріндавана, о.в. Ґолокою Вріндаваном, м.в. (на) Ґолоці Вріндавані – (аналогія – місто Київ))",
+      "italic": "false"
+    },
+    {
+      "id": 518,
+      "transliteration": "Раґгунатх дас Ґосвамі",
+      "italic": "false"
+    },
+    {
+      "id": 519,
+      "transliteration": "якша, р.в. мн - якш",
+      "italic": "true"
+    },
+    {
+      "id": 520,
+      "transliteration": "Нароттам",
+      "italic": "false"
+    },
+    {
+      "id": 521,
+      "transliteration": "Пандав (один)",
+      "italic": "false"
+    },
+    {
+      "id": 522,
+      "transliteration": "…-натх (в усіх словах із цією частиною в кінці пишемо БЕЗ -а)",
+      "italic": "false"
+    },
+    {
+      "id": 523,
+      "transliteration": "прасад, махапрасад",
+      "italic": "true"
+    },
+    {
+      "id": 524,
+      "transliteration": "Радга-Крішна, Божества",
+      "italic": "false"
+    },
+    {
+      "id": 525,
+      "transliteration": "Санджай",
+      "italic": "false"
+    },
+    {
+      "id": 526,
+      "transliteration": "чандал",
+      "italic": "true"
+    },
+    {
+      "id": 527,
+      "transliteration": "Явана-радж",
+      "italic": "false"
+    },
+    {
+      "id": 528,
+      "transliteration": "ванар",
+      "italic": "true"
+    },
+    {
+      "id": 529,
+      "transliteration": "аватара",
+      "italic": "true"
+    },
+    {
+      "id": 530,
+      "transliteration": "Шрінівас, Шрівас",
+      "italic": "false"
+    },
+    {
+      "id": 531,
+      "transliteration": "В’ясадева",
+      "italic": "false"
+    },
+    {
+      "id": 532,
+      "transliteration": "Прабгупада",
+      "italic": "false"
+    },
+    {
+      "id": 533,
+      "transliteration": "парамахамса",
+      "italic": "true"
+    },
+    {
+      "id": 534,
+      "transliteration": "Шукадева (в усіх словах, де друга частина -дева, послідовно вживаємо -а)",
+      "italic": "false"
+    },
+    {
+      "id": 535,
+      "transliteration": "ґріхастха (д.в. ґріхастсі)",
+      "italic": "true"
+    },
+    {
+      "id": 536,
+      "transliteration": "ванапрастха (д.в. ванапрастсі)",
+      "italic": "true"
+    },
+    {
+      "id": 537,
+      "transliteration": "Чітраратха",
+      "italic": "false"
+    },
+    {
+      "id": 538,
+      "transliteration": "Шрідгара",
+      "italic": "false"
+    },
+    {
+      "id": 539,
+      "transliteration": "Баладева",
+      "italic": "false"
+    },
+    {
+      "id": 540,
+      "transliteration": "ачар’я (р.в. мн. - ачар’їв)",
+      "italic": "true"
+    },
+    {
+      "id": 541,
+      "transliteration": "бгаґавата",
+      "italic": "true"
+    },
+    {
+      "id": 542,
+      "transliteration": "Нарададева (о.в. Нарададевою)",
+      "italic": "false"
+    },
+    {
+      "id": 543,
+      "transliteration": "махаджана",
+      "italic": "true"
+    },
+    {
+      "id": 544,
+      "transliteration": "Бгішмадева (Бгішмадеви, Бгішмадевою)",
+      "italic": "false"
+    },
+    {
+      "id": 545,
+      "transliteration": "варнашрама",
+      "italic": "true"
+    },
+    {
+      "id": 546,
+      "transliteration": "двіджа",
+      "italic": "true"
+    },
+    {
+      "id": 547,
+      "transliteration": "Ашваттхама",
+      "italic": "false"
+    },
+    {
+      "id": 548,
+      "transliteration": "шалаґрам-шіла",
+      "italic": "true"
+    },
+    {
+      "id": 549,
+      "transliteration": "Дашаратха",
+      "italic": "false"
+    },
+    {
+      "id": 550,
+      "transliteration": "Нарасімхадева, Нрісімхадева",
+      "italic": "false"
+    },
+    {
+      "id": 551,
+      "transliteration": "бгакта",
+      "italic": "true"
+    },
+    {
+      "id": 552,
+      "transliteration": "Пуранджана",
+      "italic": "false"
+    },
+    {
+      "id": 553,
+      "transliteration": "Адішвара",
+      "italic": "false"
+    },
+    {
+      "id": 554,
+      "transliteration": "Павана-саровара",
+      "italic": "false"
+    },
+    {
+      "id": 555,
+      "transliteration": "млеччха",
+      "italic": "true"
+    },
+    {
+      "id": 556,
+      "transliteration": "Прахлада",
+      "italic": "false"
+    },
+    {
+      "id": 557,
+      "transliteration": "«Ішопанішада»",
+      "italic": "false"
+    },
+    {
+      "id": 558,
+      "transliteration": "Упанішада",
+      "italic": "false"
+    },
+    {
+      "id": 559,
+      "transliteration": "<i>асура</i>, усі слова із цим складником також з -а: Врітрасура, Денукасура... (відповідно, р.в. мн: <i>асур</i>)",
+      "italic": "false"
+    },
+    {
+      "id": 560,
+      "transliteration": "Бріхадратха",
+      "italic": "false"
+    },
+    {
+      "id": 561,
+      "transliteration": "Анупам",
+      "italic": "false"
+    },
+    {
+      "id": 562,
+      "transliteration": "Джгарікханд",
+      "italic": "false"
+    },
+    {
+      "id": 563,
+      "transliteration": "Тукарам",
+      "italic": "false"
+    },
+    {
+      "id": 564,
+      "transliteration": "Шріпад",
+      "italic": "false"
+    },
+    {
+      "id": 565,
+      "transliteration": "Лочан",
+      "italic": "false"
+    },
+    {
+      "id": 566,
+      "transliteration": "Чандрашекхар",
+      "italic": "false"
+    },
+    {
+      "id": 567,
+      "transliteration": "Сакар Mаллік",
+      "italic": "false"
+    },
+    {
+      "id": 568,
+      "transliteration": "марґ, р.в -у: марґу",
+      "italic": "true"
+    },
+    {
+      "id": 569,
+      "transliteration": "Шалаґрам (назва села)",
+      "italic": "false"
+    },
+    {
+      "id": 570,
+      "transliteration": "Кавікарнапура",
+      "italic": "false"
+    },
+    {
+      "id": 571,
+      "transliteration": "Ніламбара",
+      "italic": "false"
+    },
+    {
+      "id": 572,
+      "transliteration": "Тапана Мішра",
+      "italic": "false"
+    },
+    {
+      "id": 573,
+      "transliteration": "мріданґа (д.в. мріданзі)",
+      "italic": "true"
+    },
+    {
+      "id": 574,
+      "transliteration": "Лакшман",
+      "italic": "false"
+    },
+    {
+      "id": 575,
+      "transliteration": "Мадана-мохан",
+      "italic": "false"
+    },
+    {
+      "id": 576,
+      "transliteration": "Гопіджана Валабга",
+      "italic": "false"
+    },
+    {
+      "id": 577,
+      "transliteration": "Нараяна Прасад",
+      "italic": "false"
+    },
+    {
+      "id": 578,
+      "transliteration": "йоджана (р.в. мн - йоджан), 12,8 км",
+      "italic": "true"
+    },
+    {
+      "id": 579,
+      "transliteration": "бгаджан (нірджан-бгаджан)",
+      "italic": "true"
+    },
+    {
+      "id": 580,
+      "transliteration": "Вібгішана",
+      "italic": "false"
+    },
+    {
+      "id": 581,
+      "transliteration": "Ґауракішор дас Бабаджі  (слова з частинкою -кішор пишемо без -а, о.в. - перед Ґауракішором дасом Бабаджі Махараджем)",
+      "italic": "false"
+    },
+    {
+      "id": 582,
+      "transliteration": "Санат-кумар, у р.в. Саната-кумара",
+      "italic": "false"
+    },
+    {
+      "id": 583,
+      "transliteration": "Бабгрувахана (усі слова з -вахана (і саме слово) вживаємо з -а )",
+      "italic": "false"
+    },
+    {
+      "id": 584,
+      "transliteration": "«Шрімад-Бгаґаватам» - він, його: займенники, які стосуються цієї назви, пишемо з малої літери",
+      "italic": "false"
+    },
+    {
+      "id": 585,
+      "transliteration": "слово «ІСККОН» відмінюємо",
+      "italic": "false"
+    },
+    {
+      "id": 586,
+      "transliteration": "планетні системи",
+      "italic": "false"
+    },
+    {
+      "id": 587,
+      "transliteration": "«приносити поклони» - помилка, правильно - «складати поклони»",
+      "italic": "false"
+    },
+    {
+      "id": 588,
+      "transliteration": "Праяґ, Бенарес (Р.в. Праяґа, Бенареса - бо це міста; Праяґу - якщо це місце злиття священних річок)",
+      "italic": "false"
+    },
+    {
+      "id": 589,
+      "transliteration": "Займенникові слова, які стосуються імен Господа, що належать до <i>вішну-таттви</i> (Крішна, Баларама, Санкаршана, Прадьюмна, Аніруддга, Васудева, Господь Чайтанья, Господь Нітьянанда, Кшіродакашаї Вішну, Каранодакашаї Вішну, Ґарбгодакашаї Вішну), пишемо з великої літери – Він, Його, Ним, Сам тощо.",
+      "italic": "false"
+    },
+    {
+      "id": 590,
+      "transliteration": "Займенникові слова, які стосуються не Вішну-таттви (<i>ліла-аватари, шакті-авеша-аватари, ґуна-аватари</i> (крім Вішну)), пишемо з малої літери (він, його...).",
+      "italic": "false"
+    },
+    {
+      "id": 591,
+      "transliteration": "Я складаю шанобливі поклони до лотосових стіп мого духовного вчителя (або - стопам...); у глибокій шані я схиляюся перед тобою... ",
+      "italic": "false"
+    },
+    {
+      "id": 592,
+      "transliteration": "Харе Крішна, Харе Крішна, Крішна Крішна, Харе Харе / Харе Рама, Харе Рама, Рама Рама, Харе Харе",
+      "italic": "false"
+    },
+    {
+      "id": 593,
+      "transliteration": "арані (ж.р.)",
+      "italic": "true"
+    },
+    {
+      "id": 594,
+      "transliteration": "кожен, хто робить... - варіанти узгодження числа: ті, які роблять / ті, хто робить / кожен, хто робить",
+      "italic": "false"
+    },
+    {
+      "id": 595,
+      "transliteration": "привабленість до...",
+      "italic": "false"
+    },
+    {
+      "id": 596,
+      "transliteration": "виконувати аскези, віддаватися аскезам, практикувати аскези, вдаватися до аскез",
+      "italic": "false"
+    },
+    {
+      "id": 597,
+      "transliteration": "Шрідгар",
+      "italic": "false"
+    },
+    {
+      "id": 598,
+      "transliteration": "Вішвамбар",
+      "italic": "false"
+    },
+    {
+      "id": 599,
+      "transliteration": "Ніламбар",
+      "italic": "false"
+    },
+    {
+      "id": 599,
+      "transliteration": "пандіт",
+      "italic": "false"
+    },
+    {
+      "id": 600,
+      "transliteration": "тятива на луку",
+      "italic": "false"
+    },
+    {
+      "id": 601,
+      "transliteration": "Ґопіджана Валлабга",
+      "italic": "false"
+    },
+    {
+      "id": 602,
+      "transliteration": "Нараяна Прасад",
+      "italic": "false"
+    },
+    {
+      "id": 603,
+      "transliteration": "",
+      "italic": "false"
+    },
+    {
+      "id": 604,
+      "transliteration": "Iндрапрастха",
+      "italic": "false"
+    },
+    {
+      "id": 605,
+      "transliteration": "Урукрама",
+      "italic": "false"
+    },
+    {
+      "id": 606,
+      "transliteration": "бгаса",
+      "italic": "true"
+    },
+    {
+      "id": 607,
+      "transliteration": "бгаллука",
+      "italic": "true"
+    },
+    {
+      "id": 608,
+      "transliteration": "",
+      "italic": "true"
+    },
+    {
+      "id": 609,
+      "transliteration": "Слава Шрі Крішні, укоханцю <i>ґопі</i>",
+      "italic": "false"
+    },
+    {
+      "id": 610,
+      "transliteration": "Вірочан",
+      "italic": "false"
+    },
+    {
+      "id": 611,
+      "transliteration": "«живий» духовний учитель",
+      "italic": "false"
+    },
+    {
+      "id": 612,
+      "transliteration": "дерево <i>тамал</i>",
+      "italic": "false"
+    },
+    {
+      "id": 613,
+      "transliteration": "Саґар Махарадж",
+      "italic": "false"
+    },
+    {
+      "id": 614,
+      "transliteration": "Ґанґасаґар ",
+      "italic": "false"
+    },
+    {
+      "id": 615,
+      "transliteration": "Дайтьї, Данави ",
+      "italic": "false"
+    },
+    {
+      "id": 616,
+      "transliteration": " Ґопінатх,  кличний відмінок  —  Ґопінатху; правило: власні імена іноземного походження з основою на г, ґ, к, х: Людвіґ-у, Фрідріх-у, Рюрик-у;",
+      "italic": "false"
+    },
+    {
+      "id": 617,
+      "transliteration": "Віджаядгваджа Tіртха",
+      "italic": "false"
+    },
+    {
+      "id": 618,
+      "transliteration": "Tіртха (власна назва, ім’я), <i>тіртха</i> (санскритський термін), д.в. - тіртсі",
+      "italic": "false"
+    },
+    {
+      "id": 619,
+      "transliteration": "Прабгас - р.в. Прабгаса",
+      "italic": "false"
+    },
+    {
+      "id": 620,
+      "transliteration": "«невід’ємний» на «невіддільний»? Обидва слова потрібні, але «невід’ємні» переважно «ознаки», а «невіддільні» переважно «частки»",
+      "italic": "false"
+    },
+    {
+      "id": 621,
+      "transliteration": "Малаядгваджа",
+      "italic": "false"
+    },
+    {
+      "id": 622,
+      "transliteration": "persona non grata",
+      "italic": "true"
+    },
+    {
+      "id": 623,
+      "transliteration": "Верховна Божественна Особа(Мохіні-мурті, ж.р.), Вона",
+      "italic": "true"
+    },
+    {
+      "id": 624,
+      "transliteration": "Раштрабгріт",
+      "italic": "false"
+    },
+    {
+      "id": 625,
+      "transliteration": "Сударшана (ім'я)",
+      "italic": "false"
+    },
+    {
+      "id": 626,
+      "transliteration": "Аварана (ім'я)",
+      "italic": "false"
+    },
+    {
+      "id": 627,
+      "transliteration": "Джада Бгарата",
+      "italic": "false"
+    },
+    {
+      "id": 628,
+      "transliteration": "дерево <i>тала</i>",
+      "italic": "false"
+    },
+    {
+      "id": 628,
+      "transliteration": "Пулаха-ашрам",
+      "italic": "false"
+    },
+    {
+      "id": 629,
+      "transliteration": "Нара-Нараяна, Нару-Нараяну, Нари-Нараяни, Нарі-Нараяні",
+      "italic": "false"
+    },
+    {
+      "id": 630,
+      "transliteration": "Сонце якщо особа і зірка - з великої, а якщо просто небесне світило, то з малої.",
+      "italic": "false"
+    },
+    {
+      "id": 631,
+      "transliteration": "Сонце якщо особа і зірка - з великої, а якщо просто небесне світило, то з малої.",
+      "italic": "false"
+    },
+    {
+      "id": 632,
+      "transliteration": "Кайлас",
+      "italic": "false"
+    },
+    {
+      "id": 632,
+      "transliteration": "миля = 1609 м ",
+      "italic": "false"
+    },
+    {
+      "id": 633,
+      "transliteration": "Дамодар",
+      "italic": "false"
+    },
+    {
+      "id": 634,
+      "transliteration": "<i>ґурудев</i> (як виняток згідно із загальноіндійським вжитком)",
+      "italic": "false"
+    },
+    {
+      "id": 635,
+      "transliteration": "Дабір Кхас",
+      "italic": "false"
+    },
+    {
+      "id": 636,
+      "transliteration": "Дамодар-ліла",
+      "italic": "false"
+    },
+    {
+      "id": 637,
+      "transliteration": "Дамодар-аштака",
+      "italic": "false"
+    },
+    {
+      "id": 638,
+      "transliteration": "Перелік змій на Расаталі: <i>пані</i>, <i>нівата-кавачі</i>, <i>калеї</i> та <i>хіранья-пуравасі</i> (5.24.30)",
+      "italic": "false"
+    },
+    {
+      "id": 639,
+      "transliteration": "<i>вішішта-адвайта</i>, <i>двайта-адвайта</i>, <i>вішуддга-адвайта</i> ",
+      "italic": "false"
+    },
+    {
+      "id": 640,
+      "transliteration": "Бгадраван, Білваван, Лаухаван, Бгандіраван, Махаван, Мадгуван, Талаван, Кумудаван, Бахулаван, Кам’яван, Кхадіраван. <br>Назви із закінченням <i>-ван</i> пишемо без -а",
+      "italic": "false"
+    },
+    {
+      "id": 641,
+      "transliteration": "Праяґ-тіртха",
+      "italic": "false"
+    },
+    {
+      "id": 642,
+      "transliteration": "Шрі Білваманґал Тхакур",
+      "italic": "false"
+    },
+    {
+      "id": 643,
+      "transliteration": "звертання - Верховний Боже-Особо",
+      "italic": "false"
+    },
+    {
+      "id": 644,
+      "transliteration": "Вібграджіта (місто)",
+      "italic": "false"
+    },
+  {
+    "id": 645,
+    "transliteration": "«Нама-санкіртана»",
+    "italic": false
+  },
+  {
+    "id": 646,
+    "transliteration": "«Ґіта-мала»",
+    "italic": false
+  },
+  {
+    "id": 647,
+    "transliteration": "<i>діґвіджай</i>",
+    "italic": false
+  },
+  {
+    "id": 648,
+    "transliteration": "Картіка",
+    "italic": false
+  },
+  {
+    "id": 649,
+    "transliteration": "Картікея",
+    "italic": false
+  },
+  {
+    "id": 650,
+    "transliteration": "«Шатапатха-брахмана»",
+    "italic": false
+  },
+  {
+    "id": 651,
+    "transliteration": "«Тайттірія-брахмана»",
+    "italic": false
+  },
+  {
+    "id": 652,
+    "transliteration": "«Бріхад-араньяка-упанішада»",
+    "italic": false
+  },
+  {
+    "id": 653,
+    "transliteration": "Кайкеї",
+    "italic": false
+  },
+  {
+    "id": 654,
+    "transliteration": "Шурпанакха, Д.в. Шурпанаці",
+    "italic": false
+  },
+  {
+    "id": 655,
+    "transliteration": "жертвопринесення <i>ашвамедга</i>",
+    "italic": false
+  },
+  {
+    "id": 656,
+    "transliteration": "Яванарадж",
+    "italic": false
+  },
+  {
+    "id": 657,
+    "transliteration": "<i>лінґам</i> (<i>лінґами</i>, <i>лінґамів</i>, <i>лінґамам</i>)",
+    "italic": false
+  },
+  {
+    "id": 658,
+    "transliteration": "Бгаскарешвара-<i>лінґам</i>",
+    "italic": false
+  },
+  {
+    "id": 659,
+    "transliteration": "Шіва-<i>лінґам</i>",
+    "italic": false
+  },
+  {
+    "id": 660,
+    "transliteration": "Сомарадж",
+    "italic": false
+  },
+  {
+    "id": 661,
+    "transliteration": "Ґандгарварадж",
+    "italic": false
+  },
+  {
+    "id": 662,
+    "transliteration": "«Шад-ґосвамй-аштака»",
+    "italic": false
+  },
+  {
+    "id": 663,
+    "transliteration": "«Шад-ґосвамі-стотра»",
+    "italic": false
+  },
+  {
+    "id": 664,
+    "transliteration": "Парваті-деві",
+    "italic": false
+  },
+  {
+    "id": 665,
+    "transliteration": "Мадгва-Ґаудія-<i>сампрадая</i>; Брахма-Мадгва-Ґаудія-<i>сампрадая</i>",
+    "italic": false
+  },
+  {
+    "id": 666,
+    "transliteration": "Дакшіна-панчала",
+    "italic": false
+  },
+  {
+    "id": 667,
+    "transliteration": "Уттара-панчала",
+    "italic": false
+  },
+  {
+    "id": 668,
+    "transliteration": "Панча-прастха",
+    "italic": false
+  },
+  {
+    "id": 669,
+    "transliteration": "«Баудгаяна-дгарма-шастра»",
+    "italic": false
+  },
+  {
+    "id": 670,
+    "transliteration": "стадії розвитку <i>анна-мая</i>, <i>прана-мая</i>, <i>мано-мая, <i>віґ’яна-мая</i>, <i>ананда-мая</i>",
+    "italic": false
+  },
+  {
+    "id": 671,
+    "transliteration": "«Маха-Вараха Пурана»",
+    "italic": false
+  },
+  {
+    "id": 672,
+    "transliteration": "«Ґопал-тапані-упанішада»",
+    "italic": false
+  },
+  {
+    "id": 673,
+    "transliteration": "<i>ньяїки</i>",
+    "italic": false
+  },
+  {
+    "id": 674,
+    "transliteration": "<i>мімансаки</i>",
+    "italic": false
+  },
+  {
+    "id": 675,
+    "transliteration": "слова на позначення шкіл пишемо з малої літери курсивом: <i>санкх’я</i>, <i>йоґа</i>, <i>ньяя</i>, <i>вайшешіка</i>, <i>міманса, веданта</i>",
+    "italic": false
+  },
+  {
+    "id": 676,
+    "transliteration": "церемонія <i>шраддги</i>",
+    "italic": false
+  },
+  {
+    "id": 677,
+    "transliteration": "«Нарада-панчаратра»",
+    "italic": false
+  },
+  {
+    "id": 678,
+    "transliteration": "девʼять Йоґендр",
+    "italic": false
+  },
+  {
+    "id": 679,
+    "transliteration": "<i>нава-йоґендри</i> (Р.в. <i>нава-йоґендр</i>)",
+    "italic": false
+  },
+  {
+    "id": 680,
+    "transliteration": "Йоґендра (Р.в. мн. Йоґендр)",
+    "italic": false
+  },
+  {
+    "id": 681,
+    "transliteration": "Ґаурасундара",
+    "italic": false
+  },
+  {
+    "id": 682,
+    "transliteration": "«Тантра-бгаґавата»",
+    "italic": false
+  },
+  {
+    "id": 683,
+    "transliteration": "«Чайтанья-бгаґавата»",
+    "italic": false
+  },
+  {
+    "id": 684,
+    "transliteration": "«Бріхад Вішну Пурана»",
+    "italic": false
+  },
+  {
+    "id": 685,
+    "transliteration": "«Према-віварта»",
+    "italic": false
+  }
+  ]
+}
